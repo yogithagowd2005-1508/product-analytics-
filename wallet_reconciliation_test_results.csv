@@ -1,0 +1,7 @@
+test_id,test_name,status,details
+WLT-TC01,Double-Entry Sign Invariant,PASSED,"Credits positive: True (+370,335.00), Debits negative: True (-106,245.00)"
+WLT-TC02,Zero Overdraft & Non-Negative Balances,PASSED,"Min balance: 0.00 VEs, Overdraft violations: 0 across 1000 users"
+WLT-TC03,Circulating Supply Parity & Positive Float,PASSED,"Circulating Supply: +268,855.00 VEs, Discrepancy: 0.000000 VEs (Exact Match)"
+WLT-TC04,Reward-to-Wallet Credit Reconciliation,PASSED,Tested 2280 links against Rewards pool; 0 orphans
+WLT-TC05,Withdrawal Debit & Settlement Reconciliation,PASSED,Zero orphan withdrawal references across debits (882) and refunds (62); 100% refunds mapped to valid rejections
+WLT-TC06,Reversal Link & Parent Transaction Audit,PASSED,All 36 reversal references mapped to valid transaction IDs with zero orphans

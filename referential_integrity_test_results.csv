@@ -1,0 +1,11 @@
+path_id,relationship_name,child_table,foreign_key,parent_table,primary_key,records_tested,orphan_records,unique_orphans,test_status
+FK-01,Task_Activity.user_id -> Users.user_id,Task_Activity,user_id,Users,user_id,6000,0,0,PASSED (100% Referential Integrity)
+FK-02,Rewards.user_id -> Users.user_id,Rewards,user_id,Users,user_id,5000,0,0,PASSED (100% Referential Integrity)
+FK-03,Rewards.task_activity_id -> Task_Activity.task_activity_id,Rewards,task_activity_id,Task_Activity,task_activity_id,3010,0,0,PASSED (100% Referential Integrity)
+FK-04,Wallet.user_id -> Users.user_id,Wallet,user_id,Users,user_id,3500,0,0,PASSED (100% Referential Integrity)
+FK-05,Wallet.reference_id (reward credits) -> Rewards.reward_id,Wallet,reference_id,Rewards,reward_id,2280,0,0,PASSED (100% Referential Integrity)
+FK-06,Withdrawals.user_id -> Users.user_id,Withdrawals,user_id,Users,user_id,1200,0,0,PASSED (100% Referential Integrity)
+FK-07,Referrals.referring_user_id -> Users.user_id,Referrals,referring_user_id,Users,user_id,900,0,0,PASSED (100% Referential Integrity)
+FK-08,Referrals.referred_user_id -> Users.user_id,Referrals,referred_user_id,Users,user_id,760,0,0,PASSED (100% Referential Integrity)
+FK-09,Feature_Events.user_id -> Users.user_id,Feature_Events,user_id,Users,user_id,12000,0,0,PASSED (100% Referential Integrity)
+CONTROL-NEG,Messy_Data.user_id -> Users.user_id (Corrupted Audit Control),Messy_Data,user_id,Users,user_id,525,45,33,DETECTED 45 ORPHANS (33 unique keys)

@@ -1,0 +1,901 @@
+referral_id,referring_user_id,referred_user_id,invite_channel,creation_timestamp,registration_timestamp,activation_timestamp,status,reward_credited_to_referrer,attribution_source
+REF_0001,USR_00139,USR_00002,DirectLink,2026-01-04 02:11:44,2026-01-04 20:11:44,,registered,False,campaign_share_sheet
+REF_0002,USR_00230,USR_00003,DirectLink,2026-02-24 18:44:59,2026-02-24 23:44:59,2026-02-26 20:44:59,activated,False,campaign_share_sheet
+REF_0003,USR_00974,,Telegram,2026-09-23 06:19:12,,,link_created,False,campaign_share_sheet
+REF_0004,USR_00428,USR_00019,Telegram,2026-05-22 11:15:05,2026-05-23 10:15:05,2026-05-25 07:15:05,activated,False,campaign_share_sheet
+REF_0005,USR_00776,USR_00021,DirectLink,2026-03-15 18:41:09,2026-03-17 04:41:09,2026-03-18 16:41:09,converted,True,campaign_share_sheet
+REF_0006,USR_00535,USR_00023,WhatsApp,2026-07-23 10:54:29,2026-07-24 16:54:29,2026-07-25 12:54:29,activated,False,campaign_share_sheet
+REF_0007,USR_00961,,DirectLink,2026-03-06 22:36:35,,,link_created,False,campaign_share_sheet
+REF_0008,USR_00072,USR_00028,Telegram,2026-04-21 13:49:59,2026-04-23 02:49:59,2026-04-24 04:49:59,converted,True,campaign_share_sheet
+REF_0009,USR_00517,USR_00031,DirectLink,2026-05-03 06:34:14,2026-05-05 21:34:14,,registered,False,campaign_share_sheet
+REF_0010,USR_00246,,Twitter,2026-03-07 14:54:25,,,link_created,False,campaign_share_sheet
+REF_0011,USR_00093,USR_00035,Telegram,2026-10-03 01:38:47,2026-10-03 15:38:47,2026-10-04 13:38:47,activated,False,campaign_share_sheet
+REF_0012,USR_00987,USR_00036,WhatsApp,2026-06-13 00:25:02,2026-06-14 01:25:02,2026-06-14 07:25:02,converted,True,campaign_share_sheet
+REF_0013,USR_00196,USR_00038,WhatsApp,2026-04-19 16:10:22,2026-04-20 07:10:22,2026-04-22 06:10:22,converted,True,campaign_share_sheet
+REF_0014,USR_00644,USR_00042,Telegram,2026-06-27 22:35:54,2026-06-28 18:35:54,2026-06-29 11:35:54,converted,True,campaign_share_sheet
+REF_0015,USR_00523,USR_00048,Twitter,2026-09-28 03:20:48,2026-09-28 18:20:48,2026-09-30 00:20:48,converted,True,campaign_share_sheet
+REF_0016,USR_00306,USR_00049,WhatsApp,2026-01-19 20:08:39,2026-01-20 23:08:39,,registered,False,campaign_share_sheet
+REF_0017,USR_00793,USR_00050,WhatsApp,2026-01-15 12:52:32,2026-01-17 07:52:32,2026-01-18 08:52:32,activated,False,campaign_share_sheet
+REF_0018,USR_00575,USR_00058,WhatsApp,2026-04-16 04:56:07,2026-04-18 14:56:07,,registered,False,campaign_share_sheet
+REF_0019,USR_00173,USR_00065,WhatsApp,2026-07-10 01:17:21,2026-07-10 09:17:21,2026-07-11 11:17:21,converted,True,campaign_share_sheet
+REF_0020,USR_00625,USR_00066,Twitter,2026-07-10 10:47:06,2026-07-11 20:47:06,2026-07-12 04:47:06,converted,True,campaign_share_sheet
+REF_0021,USR_00255,USR_00069,WhatsApp,2026-10-28 09:42:26,2026-10-29 10:42:26,,registered,False,campaign_share_sheet
+REF_0022,USR_00806,USR_00073,WhatsApp,2026-10-03 16:45:07,2026-10-04 06:45:07,2026-10-05 03:45:07,converted,True,campaign_share_sheet
+REF_0023,USR_00062,USR_00078,SMS,2026-08-03 04:05:48,2026-08-03 21:05:48,2026-08-04 06:05:48,converted,True,campaign_share_sheet
+REF_0024,USR_00682,USR_00080,WhatsApp,2026-07-15 21:12:55,2026-07-16 17:12:55,2026-07-17 03:12:55,converted,True,campaign_share_sheet
+REF_0025,USR_00084,,WhatsApp,2026-10-24 23:50:23,,,link_created,False,campaign_share_sheet
+REF_0026,USR_00983,,WhatsApp,2026-06-30 10:49:51,,,link_created,False,campaign_share_sheet
+REF_0027,USR_00742,USR_00084,Twitter,2026-05-06 00:20:31,2026-05-06 06:20:31,2026-05-06 20:20:31,converted,True,campaign_share_sheet
+REF_0028,USR_00721,USR_00102,Telegram,2026-07-19 17:16:24,2026-07-19 20:16:24,2026-07-21 04:16:24,converted,True,campaign_share_sheet
+REF_0029,USR_00182,USR_00110,WhatsApp,2026-08-29 13:23:29,2026-08-29 18:23:29,,registered,False,campaign_share_sheet
+REF_0030,USR_00454,USR_00121,Telegram,2026-02-24 04:23:56,2026-02-25 05:23:56,2026-02-25 23:23:56,converted,True,campaign_share_sheet
+REF_0031,USR_00370,USR_00130,WhatsApp,2026-02-17 23:01:48,2026-02-19 23:01:48,2026-02-20 07:01:48,converted,True,campaign_share_sheet
+REF_0032,USR_00683,USR_00133,Twitter,2026-06-21 12:13:25,2026-06-22 07:13:25,2026-06-23 18:13:25,converted,True,campaign_share_sheet
+REF_0033,USR_00820,USR_00135,WhatsApp,2026-05-11 10:50:08,2026-05-13 12:50:08,,registered,False,campaign_share_sheet
+REF_0034,USR_00550,USR_00142,Twitter,2026-08-31 12:16:43,2026-09-01 04:16:43,2026-09-02 05:16:43,converted,True,campaign_share_sheet
+REF_0035,USR_00978,USR_00143,Telegram,2026-01-16 09:09:37,2026-01-17 05:09:37,2026-01-18 12:09:37,converted,True,campaign_share_sheet
+REF_0036,USR_00566,USR_00150,WhatsApp,2026-06-15 02:37:26,2026-06-16 16:37:26,,registered,False,campaign_share_sheet
+REF_0037,USR_00590,USR_00154,Twitter,2026-06-21 07:48:26,2026-06-23 06:48:26,,registered,False,campaign_share_sheet
+REF_0038,USR_00807,,SMS,2026-06-02 05:55:45,,,link_created,False,campaign_share_sheet
+REF_0039,USR_00834,USR_00155,WhatsApp,2026-02-07 02:54:50,2026-02-07 10:54:50,2026-02-08 13:54:50,converted,True,campaign_share_sheet
+REF_0040,USR_00673,USR_00157,DirectLink,2026-05-16 09:13:52,2026-05-17 06:13:52,2026-05-17 14:13:52,activated,False,campaign_share_sheet
+REF_0041,USR_00118,USR_00169,Twitter,2026-01-14 19:54:56,2026-01-16 14:54:56,2026-01-17 04:54:56,converted,True,campaign_share_sheet
+REF_0042,USR_00087,USR_00176,DirectLink,2026-06-04 10:56:10,2026-06-06 05:56:10,2026-06-07 06:56:10,converted,True,campaign_share_sheet
+REF_0043,USR_00907,USR_00182,Telegram,2026-06-01 16:59:57,2026-06-04 15:59:57,2026-06-06 11:59:57,converted,True,campaign_share_sheet
+REF_0044,USR_00372,,Telegram,2026-08-27 05:04:03,,,link_created,False,campaign_share_sheet
+REF_0045,USR_00118,,WhatsApp,2026-03-23 22:12:51,,,link_created,False,campaign_share_sheet
+REF_0046,USR_00127,USR_00186,Telegram,2026-02-20 15:38:38,2026-02-23 12:38:38,2026-02-25 08:38:38,converted,True,campaign_share_sheet
+REF_0047,USR_00943,USR_00190,WhatsApp,2026-07-21 19:38:22,2026-07-23 06:38:22,,registered,False,campaign_share_sheet
+REF_0048,USR_00186,USR_00191,Telegram,2026-03-24 11:57:06,2026-03-26 05:57:06,,registered,False,campaign_share_sheet
+REF_0049,USR_00697,USR_00192,WhatsApp,2026-03-12 06:19:33,2026-03-14 10:19:33,2026-03-15 07:19:33,converted,True,campaign_share_sheet
+REF_0050,USR_00771,USR_00197,WhatsApp,2026-05-19 21:56:38,2026-05-21 19:56:38,2026-05-21 22:56:38,converted,True,campaign_share_sheet
+REF_0051,USR_00904,USR_00198,WhatsApp,2026-07-14 15:50:06,2026-07-16 01:50:06,2026-07-17 12:50:06,converted,True,campaign_share_sheet
+REF_0052,USR_00572,USR_00205,Telegram,2026-05-11 10:50:51,2026-05-11 16:50:51,2026-05-12 17:50:51,converted,True,campaign_share_sheet
+REF_0053,USR_00634,USR_00213,WhatsApp,2026-01-20 12:50:21,2026-01-23 11:50:21,2026-01-24 18:50:21,converted,True,campaign_share_sheet
+REF_0054,USR_00569,USR_00237,Telegram,2026-07-25 02:11:08,2026-07-26 15:11:08,2026-07-28 07:11:08,activated,False,campaign_share_sheet
+REF_0055,USR_00711,USR_00239,DirectLink,2026-07-31 13:09:01,2026-08-02 04:09:01,2026-08-02 22:09:01,converted,True,campaign_share_sheet
+REF_0056,USR_00946,USR_00247,Telegram,2026-01-01 10:15:12,2026-01-02 05:15:12,2026-01-03 06:15:12,converted,True,campaign_share_sheet
+REF_0057,USR_00642,USR_00250,DirectLink,2026-10-21 13:52:00,2026-10-23 12:52:00,2026-10-25 03:52:00,converted,True,campaign_share_sheet
+REF_0058,USR_00340,USR_00253,WhatsApp,2026-01-19 19:46:28,2026-01-20 12:46:28,2026-01-20 19:46:28,converted,True,campaign_share_sheet
+REF_0059,USR_00626,USR_00258,Telegram,2026-07-24 10:10:42,2026-07-24 13:10:42,,registered,False,campaign_share_sheet
+REF_0060,USR_00208,,Twitter,2026-01-01 08:18:05,,,link_created,False,campaign_share_sheet
+REF_0061,USR_00547,USR_00259,Telegram,2026-06-30 13:36:14,2026-06-30 20:36:14,,registered,False,campaign_share_sheet
+REF_0062,USR_00588,USR_00266,DirectLink,2026-07-15 07:57:47,2026-07-17 02:57:47,2026-07-17 17:57:47,converted,True,campaign_share_sheet
+REF_0063,USR_00022,USR_00273,SMS,2026-03-05 05:20:44,2026-03-06 10:20:44,2026-03-07 00:20:44,converted,True,campaign_share_sheet
+REF_0064,USR_00227,USR_00277,Twitter,2026-05-31 10:39:05,2026-06-02 22:39:05,2026-06-04 03:39:05,activated,False,campaign_share_sheet
+REF_0065,USR_00068,USR_00281,WhatsApp,2026-05-15 05:48:40,2026-05-17 21:48:40,,registered,False,campaign_share_sheet
+REF_0066,USR_00641,USR_00282,WhatsApp,2026-02-23 02:14:20,2026-02-26 00:14:20,2026-02-26 20:14:20,activated,False,campaign_share_sheet
+REF_0067,USR_00114,USR_00286,Twitter,2026-10-01 21:41:50,2026-10-04 07:41:50,2026-10-05 21:41:50,activated,False,campaign_share_sheet
+REF_0068,USR_00703,USR_00287,Twitter,2026-02-10 08:57:13,2026-02-11 03:57:13,2026-02-12 03:57:13,activated,False,campaign_share_sheet
+REF_0069,USR_00247,USR_00288,WhatsApp,2026-04-07 12:58:09,2026-04-09 10:58:09,,registered,False,campaign_share_sheet
+REF_0070,USR_00574,USR_00291,Telegram,2026-10-22 01:00:23,2026-10-23 11:00:23,,registered,False,campaign_share_sheet
+REF_0071,USR_00862,USR_00294,Twitter,2026-09-08 11:38:43,2026-09-08 14:38:43,2026-09-09 10:38:43,activated,False,campaign_share_sheet
+REF_0072,USR_00849,USR_00301,Telegram,2026-01-31 16:07:58,2026-02-03 07:07:58,2026-02-04 01:07:58,converted,True,campaign_share_sheet
+REF_0073,USR_00196,USR_00305,WhatsApp,2026-02-23 06:10:12,2026-02-23 21:10:12,,registered,False,campaign_share_sheet
+REF_0074,USR_00097,USR_00306,DirectLink,2026-10-17 02:26:34,2026-10-18 20:26:34,,registered,False,campaign_share_sheet
+REF_0075,USR_00334,USR_00307,WhatsApp,2026-09-10 23:14:08,2026-09-13 17:14:08,,registered,False,campaign_share_sheet
+REF_0076,USR_00842,USR_00308,WhatsApp,2026-05-17 03:06:56,2026-05-18 18:06:56,,registered,False,campaign_share_sheet
+REF_0077,USR_00847,USR_00311,Twitter,2026-06-08 07:27:00,2026-06-08 10:27:00,2026-06-10 06:27:00,converted,True,campaign_share_sheet
+REF_0078,USR_00773,USR_00315,Telegram,2026-01-28 09:33:21,2026-01-31 06:33:21,,registered,False,campaign_share_sheet
+REF_0079,USR_00103,USR_00321,Telegram,2026-01-02 08:55:21,2026-01-03 16:55:21,2026-01-04 23:55:21,activated,False,campaign_share_sheet
+REF_0080,USR_00534,USR_00323,Telegram,2026-09-21 10:37:17,2026-09-24 01:37:17,2026-09-24 16:37:17,converted,True,campaign_share_sheet
+REF_0081,USR_00017,USR_00326,Telegram,2026-08-29 17:16:17,2026-08-31 12:16:17,2026-08-31 19:16:17,activated,False,campaign_share_sheet
+REF_0082,USR_00791,USR_00328,Telegram,2026-04-28 21:05:09,2026-05-01 00:05:09,2026-05-01 01:05:09,converted,True,campaign_share_sheet
+REF_0083,USR_00494,USR_00336,DirectLink,2026-03-15 21:42:55,2026-03-16 20:42:55,2026-03-17 00:42:55,activated,False,campaign_share_sheet
+REF_0084,USR_00341,USR_00342,WhatsApp,2026-01-16 10:15:34,2026-01-17 09:15:34,2026-01-19 05:15:34,converted,True,campaign_share_sheet
+REF_0085,USR_00883,USR_00345,WhatsApp,2026-04-26 20:52:18,2026-04-28 11:52:18,2026-04-28 13:52:18,activated,False,campaign_share_sheet
+REF_0086,USR_00116,,WhatsApp,2026-03-03 10:34:15,,,link_created,False,campaign_share_sheet
+REF_0087,USR_00614,USR_00348,SMS,2026-05-13 23:41:30,2026-05-15 02:41:30,2026-05-16 20:41:30,converted,True,campaign_share_sheet
+REF_0088,USR_00847,USR_00354,WhatsApp,2026-05-01 12:56:53,2026-05-01 21:56:53,,registered,False,campaign_share_sheet
+REF_0089,USR_00306,USR_00357,WhatsApp,2026-05-11 22:09:03,2026-05-12 03:09:03,2026-05-12 09:09:03,activated,False,campaign_share_sheet
+REF_0090,USR_00174,USR_00362,WhatsApp,2026-08-22 01:14:12,2026-08-23 08:14:12,2026-08-23 14:14:12,activated,False,campaign_share_sheet
+REF_0091,USR_00177,USR_00364,SMS,2026-07-25 09:38:02,2026-07-28 06:38:02,,registered,False,campaign_share_sheet
+REF_0092,USR_00975,USR_00366,Telegram,2026-06-14 23:49:55,2026-06-17 08:49:55,2026-06-18 07:49:55,activated,False,campaign_share_sheet
+REF_0093,USR_00424,,Telegram,2026-04-24 23:14:37,,,link_created,False,campaign_share_sheet
+REF_0094,USR_00677,,Twitter,2026-07-14 19:11:14,,,link_created,False,campaign_share_sheet
+REF_0095,USR_00226,USR_00367,WhatsApp,2026-05-29 15:57:49,2026-05-30 11:57:49,,registered,False,campaign_share_sheet
+REF_0096,USR_00040,USR_00373,WhatsApp,2026-08-09 19:48:49,2026-08-10 08:48:49,2026-08-11 11:48:49,converted,True,campaign_share_sheet
+REF_0097,USR_00560,USR_00375,WhatsApp,2026-05-18 17:44:35,2026-05-18 18:44:35,2026-05-20 15:44:35,converted,True,campaign_share_sheet
+REF_0098,USR_00580,USR_00394,SMS,2026-07-03 08:35:01,2026-07-03 13:35:01,,registered,False,campaign_share_sheet
+REF_0099,USR_00075,USR_00397,WhatsApp,2026-10-21 16:04:20,2026-10-22 07:04:20,2026-10-23 16:04:20,converted,True,campaign_share_sheet
+REF_0100,USR_00518,USR_00404,Twitter,2026-01-23 01:49:45,2026-01-23 22:49:45,2026-01-25 05:49:45,activated,False,campaign_share_sheet
+REF_0101,USR_00783,,DirectLink,2026-03-30 17:04:55,,,link_created,False,campaign_share_sheet
+REF_0102,USR_00145,USR_00408,Twitter,2026-04-14 12:18:29,2026-04-17 00:18:29,2026-04-18 11:18:29,converted,True,campaign_share_sheet
+REF_0103,USR_00872,,WhatsApp,2026-03-31 19:04:41,,,link_created,False,campaign_share_sheet
+REF_0104,USR_00772,USR_00411,WhatsApp,2026-05-31 17:30:36,2026-06-02 12:30:36,2026-06-02 14:30:36,converted,True,campaign_share_sheet
+REF_0105,USR_00561,USR_00412,Twitter,2026-07-20 21:11:10,2026-07-22 04:11:10,,registered,False,campaign_share_sheet
+REF_0106,USR_00158,USR_00415,WhatsApp,2026-10-28 12:40:44,2026-10-29 14:40:44,2026-10-31 06:40:44,converted,True,campaign_share_sheet
+REF_0107,USR_00454,,Telegram,2026-08-10 20:33:39,,,link_created,False,campaign_share_sheet
+REF_0108,USR_00697,USR_00418,WhatsApp,2026-10-08 14:17:54,2026-10-11 00:17:54,2026-10-12 20:17:54,activated,False,campaign_share_sheet
+REF_0109,USR_00920,USR_00419,WhatsApp,2026-07-10 12:58:15,2026-07-11 08:58:15,2026-07-12 00:58:15,converted,True,campaign_share_sheet
+REF_0110,USR_00542,USR_00429,WhatsApp,2026-03-02 23:10:33,2026-03-03 21:10:33,,registered,False,campaign_share_sheet
+REF_0111,USR_00670,USR_00438,Telegram,2026-03-06 08:22:46,2026-03-07 16:22:46,,registered,False,campaign_share_sheet
+REF_0112,USR_00259,USR_00454,WhatsApp,2026-02-23 16:28:23,2026-02-23 17:28:23,2026-02-24 19:28:23,converted,True,campaign_share_sheet
+REF_0113,USR_00080,,Telegram,2026-07-20 18:57:43,,,link_created,False,campaign_share_sheet
+REF_0114,USR_00683,USR_00455,WhatsApp,2026-09-08 18:12:20,2026-09-08 21:12:20,2026-09-09 20:12:20,converted,True,campaign_share_sheet
+REF_0115,USR_00437,USR_00458,Twitter,2026-08-17 13:07:09,2026-08-18 09:07:09,2026-08-19 14:07:09,converted,True,campaign_share_sheet
+REF_0116,USR_00283,USR_00460,WhatsApp,2026-05-25 01:10:55,2026-05-27 00:10:55,2026-05-28 23:10:55,activated,False,campaign_share_sheet
+REF_0117,USR_00788,USR_00461,Telegram,2026-06-07 22:23:56,2026-06-10 18:23:56,2026-06-11 05:23:56,converted,True,campaign_share_sheet
+REF_0118,USR_00423,,DirectLink,2026-02-02 09:57:47,,,link_created,False,campaign_share_sheet
+REF_0119,USR_00990,USR_00463,Twitter,2026-06-16 19:05:44,2026-06-17 08:05:44,2026-06-17 21:05:44,converted,True,campaign_share_sheet
+REF_0120,USR_00309,USR_00464,Telegram,2026-03-28 09:23:10,2026-03-31 04:23:10,2026-04-02 00:23:10,activated,False,campaign_share_sheet
+REF_0121,USR_00842,,WhatsApp,2026-01-28 10:09:52,,,link_created,False,campaign_share_sheet
+REF_0122,USR_00374,USR_00472,DirectLink,2026-08-06 15:07:43,2026-08-07 15:07:43,2026-08-08 12:07:43,converted,True,campaign_share_sheet
+REF_0123,USR_00968,USR_00477,WhatsApp,2026-06-02 05:01:59,2026-06-04 14:01:59,2026-06-05 08:01:59,activated,False,campaign_share_sheet
+REF_0124,USR_00524,USR_00483,WhatsApp,2026-06-19 06:11:15,2026-06-20 21:11:15,,registered,False,campaign_share_sheet
+REF_0125,USR_00065,,WhatsApp,2026-04-26 11:13:03,,,link_created,False,campaign_share_sheet
+REF_0126,USR_00122,USR_00484,WhatsApp,2026-04-23 02:09:03,2026-04-25 08:09:03,2026-04-26 05:09:03,activated,False,campaign_share_sheet
+REF_0127,USR_00416,,Telegram,2026-03-02 04:27:11,,,link_created,False,campaign_share_sheet
+REF_0128,USR_00974,USR_00503,WhatsApp,2026-06-03 10:55:03,2026-06-05 14:55:03,2026-06-06 10:55:03,activated,False,campaign_share_sheet
+REF_0129,USR_00277,USR_00507,DirectLink,2026-01-11 08:17:24,2026-01-11 12:17:24,2026-01-12 17:17:24,converted,True,campaign_share_sheet
+REF_0130,USR_00178,USR_00525,Telegram,2026-04-29 16:10:41,2026-05-01 19:10:41,2026-05-02 20:10:41,activated,False,campaign_share_sheet
+REF_0131,USR_00772,USR_00527,SMS,2026-01-04 23:15:32,2026-01-06 21:15:32,2026-01-08 19:15:32,converted,True,campaign_share_sheet
+REF_0132,USR_00245,USR_00540,DirectLink,2026-01-28 20:57:20,2026-01-31 10:57:20,2026-02-01 20:57:20,activated,False,campaign_share_sheet
+REF_0133,USR_00234,USR_00541,WhatsApp,2026-06-29 12:04:10,2026-07-01 13:04:10,2026-07-02 14:04:10,activated,False,campaign_share_sheet
+REF_0134,USR_00888,USR_00542,Telegram,2026-10-08 07:26:27,2026-10-09 12:26:27,2026-10-10 20:26:27,converted,True,campaign_share_sheet
+REF_0135,USR_00521,,Telegram,2026-10-10 16:01:17,,,link_created,False,campaign_share_sheet
+REF_0136,USR_00883,USR_00544,WhatsApp,2026-03-14 00:23:34,2026-03-14 23:23:34,,registered,False,campaign_share_sheet
+REF_0137,USR_01000,USR_00547,WhatsApp,2026-04-10 18:44:56,2026-04-13 12:44:56,2026-04-14 08:44:56,converted,True,campaign_share_sheet
+REF_0138,USR_00874,USR_00549,WhatsApp,2026-09-26 16:07:50,2026-09-29 13:07:50,2026-10-01 08:07:50,converted,True,campaign_share_sheet
+REF_0139,USR_00542,USR_00554,Telegram,2026-09-06 17:16:14,2026-09-07 07:16:14,2026-09-07 16:16:14,converted,True,campaign_share_sheet
+REF_0140,USR_00845,USR_00561,Telegram,2026-10-13 20:42:38,2026-10-16 03:42:38,2026-10-16 10:42:38,activated,False,campaign_share_sheet
+REF_0141,USR_00177,USR_00562,DirectLink,2026-04-19 13:56:27,2026-04-22 12:56:27,2026-04-23 18:56:27,converted,True,campaign_share_sheet
+REF_0142,USR_00497,USR_00572,Telegram,2026-08-25 14:45:31,2026-08-27 03:45:31,2026-08-28 22:45:31,converted,True,campaign_share_sheet
+REF_0143,USR_00932,USR_00574,WhatsApp,2026-07-16 03:02:24,2026-07-17 19:02:24,2026-07-19 16:02:24,converted,True,campaign_share_sheet
+REF_0144,USR_00955,USR_00575,Telegram,2026-01-15 10:34:52,2026-01-18 09:34:52,2026-01-18 17:34:52,converted,True,campaign_share_sheet
+REF_0145,USR_00196,USR_00576,WhatsApp,2026-06-27 21:50:30,2026-06-28 09:50:30,2026-06-30 08:50:30,activated,False,campaign_share_sheet
+REF_0146,USR_00012,USR_00577,DirectLink,2026-04-25 07:03:19,2026-04-28 07:03:19,2026-04-29 11:03:19,converted,True,campaign_share_sheet
+REF_0147,USR_00521,USR_00579,WhatsApp,2026-03-14 20:49:07,2026-03-17 15:49:07,,registered,False,campaign_share_sheet
+REF_0148,USR_00434,USR_00584,SMS,2026-07-15 11:12:42,2026-07-18 06:12:42,2026-07-18 11:12:42,activated,False,campaign_share_sheet
+REF_0149,USR_00035,USR_00587,DirectLink,2026-05-27 23:11:46,2026-05-29 11:11:46,2026-05-30 17:11:46,activated,False,campaign_share_sheet
+REF_0150,USR_00083,USR_00588,WhatsApp,2026-05-31 08:46:20,2026-06-02 11:46:20,2026-06-04 03:46:20,activated,False,campaign_share_sheet
+REF_0151,USR_00215,,DirectLink,2026-09-02 06:02:15,,,link_created,False,campaign_share_sheet
+REF_0152,USR_00784,USR_00597,Telegram,2026-10-31 23:16:32,2026-11-03 05:16:32,2026-11-04 02:16:32,converted,True,campaign_share_sheet
+REF_0153,USR_00078,USR_00606,WhatsApp,2026-03-12 19:42:05,2026-03-14 05:42:05,2026-03-14 13:42:05,converted,True,campaign_share_sheet
+REF_0154,USR_00391,USR_00608,Telegram,2026-02-20 00:20:21,2026-02-22 14:20:21,2026-02-23 23:20:21,converted,True,campaign_share_sheet
+REF_0155,USR_00465,USR_00610,WhatsApp,2026-10-19 15:19:06,2026-10-22 05:19:06,2026-10-22 06:19:06,converted,True,campaign_share_sheet
+REF_0156,USR_00127,USR_00621,SMS,2026-06-13 05:45:26,2026-06-15 06:45:26,,registered,False,campaign_share_sheet
+REF_0157,USR_00154,USR_00626,DirectLink,2026-01-07 10:07:49,2026-01-08 06:07:49,2026-01-10 01:07:49,converted,True,campaign_share_sheet
+REF_0158,USR_00269,USR_00628,Telegram,2026-03-16 23:51:28,2026-03-19 14:51:28,2026-03-19 16:51:28,converted,True,campaign_share_sheet
+REF_0159,USR_00441,USR_00629,Twitter,2026-05-25 03:35:59,2026-05-28 03:35:59,2026-05-28 08:35:59,activated,False,campaign_share_sheet
+REF_0160,USR_00233,USR_00634,Telegram,2026-07-03 09:26:52,2026-07-05 04:26:52,2026-07-06 05:26:52,activated,False,campaign_share_sheet
+REF_0161,USR_00772,USR_00639,DirectLink,2026-02-23 10:30:42,2026-02-25 04:30:42,2026-02-25 23:30:42,activated,False,campaign_share_sheet
+REF_0162,USR_00966,USR_00644,WhatsApp,2026-03-29 17:09:37,2026-03-30 02:09:37,2026-03-30 13:09:37,converted,True,campaign_share_sheet
+REF_0163,USR_00653,USR_00649,WhatsApp,2026-01-08 10:21:26,2026-01-11 08:21:26,2026-01-12 21:21:26,activated,False,campaign_share_sheet
+REF_0164,USR_00910,USR_00654,WhatsApp,2026-06-11 09:36:48,2026-06-14 08:36:48,,registered,False,campaign_share_sheet
+REF_0165,USR_00390,,DirectLink,2026-08-23 04:44:50,,,link_created,False,campaign_share_sheet
+REF_0166,USR_00154,USR_00655,Twitter,2026-04-23 16:07:29,2026-04-23 23:07:29,2026-04-24 21:07:29,converted,True,campaign_share_sheet
+REF_0167,USR_00951,USR_00656,WhatsApp,2026-01-16 04:26:43,2026-01-17 21:26:43,2026-01-18 03:26:43,converted,True,campaign_share_sheet
+REF_0168,USR_00835,,Twitter,2026-01-09 12:20:49,,,link_created,False,campaign_share_sheet
+REF_0169,USR_00715,USR_00657,Twitter,2026-05-29 01:26:25,2026-05-29 03:26:25,2026-05-30 03:26:25,converted,True,campaign_share_sheet
+REF_0170,USR_00614,USR_00658,WhatsApp,2026-07-19 10:16:00,2026-07-21 03:16:00,2026-07-22 16:16:00,converted,True,campaign_share_sheet
+REF_0171,USR_00174,USR_00665,WhatsApp,2026-09-07 01:32:30,2026-09-09 18:32:30,2026-09-10 00:32:30,activated,False,campaign_share_sheet
+REF_0172,USR_00371,USR_00670,Telegram,2026-07-24 11:39:37,2026-07-25 19:39:37,2026-07-26 06:39:37,converted,True,campaign_share_sheet
+REF_0173,USR_00172,USR_00677,DirectLink,2026-05-26 12:01:34,2026-05-26 20:01:34,,registered,False,campaign_share_sheet
+REF_0174,USR_00186,USR_00684,WhatsApp,2026-02-13 00:06:37,2026-02-15 22:06:37,,registered,False,campaign_share_sheet
+REF_0175,USR_00837,USR_00690,Telegram,2026-06-01 15:32:21,2026-06-01 21:32:21,2026-06-02 08:32:21,activated,False,campaign_share_sheet
+REF_0176,USR_00916,USR_00692,Telegram,2026-07-29 07:29:48,2026-07-30 07:29:48,,registered,False,campaign_share_sheet
+REF_0177,USR_00580,,WhatsApp,2026-02-06 09:28:11,,,link_created,False,campaign_share_sheet
+REF_0178,USR_00559,,Telegram,2026-08-24 08:00:38,,,link_created,False,campaign_share_sheet
+REF_0179,USR_00386,USR_00694,DirectLink,2026-06-18 17:50:26,2026-06-19 06:50:26,2026-06-21 04:50:26,converted,True,campaign_share_sheet
+REF_0180,USR_00531,USR_00697,WhatsApp,2026-08-03 08:21:23,2026-08-05 07:21:23,2026-08-06 00:21:23,converted,True,campaign_share_sheet
+REF_0181,USR_00752,USR_00702,Telegram,2026-10-19 06:38:58,2026-10-20 07:38:58,,registered,False,campaign_share_sheet
+REF_0182,USR_00425,USR_00712,Twitter,2026-02-03 16:18:41,2026-02-04 01:18:41,2026-02-04 22:18:41,converted,True,campaign_share_sheet
+REF_0183,USR_00271,USR_00713,WhatsApp,2026-08-05 14:19:59,2026-08-07 15:19:59,2026-08-08 16:19:59,converted,True,campaign_share_sheet
+REF_0184,USR_00853,USR_00714,DirectLink,2026-09-06 07:02:03,2026-09-07 23:02:03,2026-09-08 18:02:03,activated,False,campaign_share_sheet
+REF_0185,USR_00655,USR_00715,WhatsApp,2026-03-18 09:34:01,2026-03-19 22:34:01,,registered,False,campaign_share_sheet
+REF_0186,USR_00257,USR_00721,WhatsApp,2026-01-21 08:50:09,2026-01-22 03:50:09,2026-01-23 07:50:09,converted,True,campaign_share_sheet
+REF_0187,USR_00514,USR_00725,Twitter,2026-08-01 12:44:36,2026-08-02 23:44:36,2026-08-03 21:44:36,converted,True,campaign_share_sheet
+REF_0188,USR_00899,USR_00733,Telegram,2026-06-03 16:27:51,2026-06-04 01:27:51,2026-06-04 08:27:51,activated,False,campaign_share_sheet
+REF_0189,USR_00858,USR_00734,DirectLink,2026-05-08 19:20:05,2026-05-10 23:20:05,2026-05-12 11:20:05,converted,True,campaign_share_sheet
+REF_0190,USR_00718,USR_00735,DirectLink,2026-01-30 22:47:36,2026-01-30 23:47:36,2026-02-01 14:47:36,converted,True,campaign_share_sheet
+REF_0191,USR_00424,USR_00738,Twitter,2026-04-30 08:54:37,2026-05-02 08:54:37,,registered,False,campaign_share_sheet
+REF_0192,USR_00485,,Telegram,2026-07-18 14:30:53,,,link_created,False,campaign_share_sheet
+REF_0193,USR_00473,USR_00743,WhatsApp,2026-06-12 03:30:49,2026-06-12 13:30:49,2026-06-13 20:30:49,activated,False,campaign_share_sheet
+REF_0194,USR_00602,,Twitter,2026-03-03 04:43:38,,,link_created,False,campaign_share_sheet
+REF_0195,USR_00693,USR_00748,DirectLink,2026-05-28 21:52:47,2026-05-30 10:52:47,2026-06-01 10:52:47,converted,True,campaign_share_sheet
+REF_0196,USR_00699,USR_00756,WhatsApp,2026-07-02 22:42:07,2026-07-05 08:42:07,,registered,False,campaign_share_sheet
+REF_0197,USR_00325,,Twitter,2026-07-30 04:33:01,,,link_created,False,campaign_share_sheet
+REF_0198,USR_00167,USR_00757,Telegram,2026-06-27 05:52:53,2026-06-27 23:52:53,2026-06-29 07:52:53,converted,True,campaign_share_sheet
+REF_0199,USR_00227,USR_00758,WhatsApp,2026-01-05 20:46:37,2026-01-08 03:46:37,2026-01-09 19:46:37,activated,False,campaign_share_sheet
+REF_0200,USR_00884,USR_00760,WhatsApp,2026-08-16 01:37:54,2026-08-18 01:37:54,,registered,False,campaign_share_sheet
+REF_0201,USR_00890,,Twitter,2026-10-31 19:23:26,,,link_created,False,campaign_share_sheet
+REF_0202,USR_00119,USR_00762,WhatsApp,2026-07-04 13:22:01,2026-07-06 13:22:01,,registered,False,campaign_share_sheet
+REF_0203,USR_00726,USR_00768,WhatsApp,2026-06-02 01:37:56,2026-06-04 23:37:56,2026-06-06 10:37:56,activated,False,campaign_share_sheet
+REF_0204,USR_00297,USR_00772,Twitter,2026-03-17 20:36:33,2026-03-20 03:36:33,2026-03-21 15:36:33,converted,True,campaign_share_sheet
+REF_0205,USR_00328,USR_00775,DirectLink,2026-04-28 19:11:55,2026-05-01 19:11:55,2026-05-01 21:11:55,converted,True,campaign_share_sheet
+REF_0206,USR_00742,USR_00778,DirectLink,2026-06-02 03:30:00,2026-06-03 15:30:00,2026-06-03 22:30:00,activated,False,campaign_share_sheet
+REF_0207,USR_00925,USR_00784,WhatsApp,2026-04-28 22:18:06,2026-04-30 20:18:06,2026-05-01 19:18:06,converted,True,campaign_share_sheet
+REF_0208,USR_00825,USR_00789,Twitter,2026-10-08 06:55:51,2026-10-10 17:55:51,2026-10-11 06:55:51,converted,True,campaign_share_sheet
+REF_0209,USR_00611,USR_00795,WhatsApp,2026-01-26 11:41:41,2026-01-28 18:41:41,2026-01-30 16:41:41,converted,True,campaign_share_sheet
+REF_0210,USR_00500,USR_00800,DirectLink,2026-08-13 12:25:29,2026-08-16 01:25:29,2026-08-17 19:25:29,converted,True,campaign_share_sheet
+REF_0211,USR_00147,USR_00804,WhatsApp,2026-07-25 14:30:26,2026-07-27 21:30:26,2026-07-28 03:30:26,converted,True,campaign_share_sheet
+REF_0212,USR_00209,USR_00805,WhatsApp,2026-09-10 00:19:29,2026-09-11 06:19:29,2026-09-11 17:19:29,activated,False,campaign_share_sheet
+REF_0213,USR_00874,USR_00818,DirectLink,2026-07-06 19:46:31,2026-07-08 23:46:31,,registered,False,campaign_share_sheet
+REF_0214,USR_00242,USR_00819,DirectLink,2026-08-20 00:13:58,2026-08-22 03:13:58,2026-08-24 01:13:58,converted,True,campaign_share_sheet
+REF_0215,USR_00702,USR_00821,Telegram,2026-10-29 16:07:22,2026-11-01 08:07:22,2026-11-01 22:07:22,converted,True,campaign_share_sheet
+REF_0216,USR_00862,USR_00834,Telegram,2026-08-13 09:51:42,2026-08-16 04:51:42,2026-08-17 10:51:42,converted,True,campaign_share_sheet
+REF_0217,USR_00760,USR_00835,Telegram,2026-09-27 15:48:11,2026-09-29 20:48:11,,registered,False,campaign_share_sheet
+REF_0218,USR_00328,USR_00836,WhatsApp,2026-07-13 23:49:32,2026-07-14 10:49:32,2026-07-16 06:49:32,converted,True,campaign_share_sheet
+REF_0219,USR_00531,USR_00837,SMS,2026-05-19 09:52:51,2026-05-20 20:52:51,2026-05-20 23:52:51,converted,True,campaign_share_sheet
+REF_0220,USR_00643,,WhatsApp,2026-06-17 21:00:11,,,link_created,False,campaign_share_sheet
+REF_0221,USR_00704,USR_00838,DirectLink,2026-08-12 00:32:39,2026-08-14 09:32:39,2026-08-16 02:32:39,converted,True,campaign_share_sheet
+REF_0222,USR_00939,,WhatsApp,2026-05-14 16:17:41,,,link_created,False,campaign_share_sheet
+REF_0223,USR_00901,USR_00853,WhatsApp,2026-07-08 12:38:20,2026-07-09 16:38:20,2026-07-10 11:38:20,converted,True,campaign_share_sheet
+REF_0224,USR_00919,USR_00860,WhatsApp,2026-04-19 11:36:54,2026-04-19 18:36:54,2026-04-20 04:36:54,converted,True,campaign_share_sheet
+REF_0225,USR_00131,USR_00861,Telegram,2026-01-14 12:43:09,2026-01-16 14:43:09,2026-01-17 02:43:09,activated,False,campaign_share_sheet
+REF_0226,USR_00478,USR_00875,Telegram,2026-08-27 19:29:17,2026-08-30 01:29:17,2026-08-31 08:29:17,activated,False,campaign_share_sheet
+REF_0227,USR_00180,USR_00878,Twitter,2026-10-27 18:09:30,2026-10-30 11:09:30,,registered,False,campaign_share_sheet
+REF_0228,USR_00782,USR_00888,WhatsApp,2026-04-03 18:42:20,2026-04-04 17:42:20,2026-04-05 18:42:20,activated,False,campaign_share_sheet
+REF_0229,USR_00232,USR_00902,WhatsApp,2026-07-11 02:58:52,2026-07-13 07:58:52,2026-07-14 17:58:52,converted,True,campaign_share_sheet
+REF_0230,USR_00192,USR_00903,WhatsApp,2026-04-29 06:54:27,2026-05-01 23:54:27,2026-05-02 04:54:27,converted,True,campaign_share_sheet
+REF_0231,USR_00845,USR_00907,DirectLink,2026-02-19 01:25:28,2026-02-19 07:25:28,2026-02-20 11:25:28,activated,False,campaign_share_sheet
+REF_0232,USR_00522,USR_00919,Twitter,2026-08-05 01:24:07,2026-08-07 11:24:07,2026-08-07 22:24:07,activated,False,campaign_share_sheet
+REF_0233,USR_00466,,WhatsApp,2026-06-28 03:04:15,,,link_created,False,campaign_share_sheet
+REF_0234,USR_00411,USR_00922,Telegram,2026-06-13 21:15:09,2026-06-15 12:15:09,2026-06-17 11:15:09,activated,False,campaign_share_sheet
+REF_0235,USR_00800,USR_00932,Twitter,2026-07-02 00:27:16,2026-07-02 02:27:16,2026-07-02 07:27:16,converted,True,campaign_share_sheet
+REF_0236,USR_00175,USR_00935,DirectLink,2026-08-29 06:15:58,2026-09-01 04:15:58,2026-09-01 18:15:58,activated,False,campaign_share_sheet
+REF_0237,USR_00752,USR_00936,Telegram,2026-10-26 04:00:26,2026-10-27 13:00:26,2026-10-29 09:00:26,converted,True,campaign_share_sheet
+REF_0238,USR_00394,USR_00938,WhatsApp,2026-04-24 15:54:49,2026-04-26 16:54:49,2026-04-27 10:54:49,activated,False,campaign_share_sheet
+REF_0239,USR_00427,USR_00941,Telegram,2026-01-11 14:02:24,2026-01-12 04:02:24,2026-01-13 03:02:24,converted,True,campaign_share_sheet
+REF_0240,USR_00049,USR_00942,Telegram,2026-01-01 10:46:41,2026-01-03 13:46:41,,registered,False,campaign_share_sheet
+REF_0241,USR_00383,USR_00943,Telegram,2026-03-06 09:53:18,2026-03-07 11:53:18,2026-03-07 15:53:18,activated,False,campaign_share_sheet
+REF_0242,USR_00037,USR_00947,WhatsApp,2026-04-12 02:38:28,2026-04-14 15:38:28,2026-04-16 12:38:28,converted,True,campaign_share_sheet
+REF_0243,USR_00727,USR_00953,DirectLink,2026-07-17 18:09:22,2026-07-20 15:09:22,2026-07-21 13:09:22,converted,True,campaign_share_sheet
+REF_0244,USR_00688,USR_00962,WhatsApp,2026-03-12 19:34:30,2026-03-13 12:34:30,,registered,False,campaign_share_sheet
+REF_0245,USR_00969,USR_00967,SMS,2026-10-15 01:00:33,2026-10-15 04:00:33,2026-10-16 05:00:33,converted,True,campaign_share_sheet
+REF_0246,USR_00889,,Twitter,2026-05-15 13:15:45,,,link_created,False,campaign_share_sheet
+REF_0247,USR_00694,USR_00970,Telegram,2026-07-05 18:15:36,2026-07-07 10:15:36,2026-07-09 04:15:36,converted,True,campaign_share_sheet
+REF_0248,USR_00129,USR_00972,WhatsApp,2026-04-26 07:20:28,2026-04-26 15:20:28,2026-04-26 21:20:28,activated,False,campaign_share_sheet
+REF_0249,USR_00560,USR_00980,SMS,2026-09-13 15:40:46,2026-09-14 18:40:46,,registered,False,campaign_share_sheet
+REF_0250,USR_00318,USR_00985,WhatsApp,2026-02-25 21:28:11,2026-02-27 22:28:11,2026-03-01 21:28:11,converted,True,campaign_share_sheet
+REF_0251,USR_00607,USR_00993,DirectLink,2026-07-01 10:49:49,2026-07-02 09:49:49,2026-07-02 14:49:49,converted,True,campaign_share_sheet
+REF_0252,USR_00550,USR_00994,WhatsApp,2026-01-11 15:48:36,2026-01-13 22:48:36,2026-01-15 01:48:36,converted,True,campaign_share_sheet
+REF_0253,USR_00580,,Telegram,2026-07-03 12:58:54,,,link_created,False,campaign_share_sheet
+REF_0254,USR_00031,USR_00999,Twitter,2026-09-15 01:45:38,2026-09-18 01:45:38,,registered,False,campaign_share_sheet
+REF_0255,USR_00135,USR_00159,Telegram,2026-07-09 21:16:50,2026-07-10 13:16:50,2026-07-10 19:16:50,activated,False,campaign_share_sheet
+REF_0256,USR_00479,USR_00264,WhatsApp,2026-07-07 17:43:03,2026-07-07 23:43:03,2026-07-08 16:43:03,activated,False,campaign_share_sheet
+REF_0257,USR_00430,USR_00254,WhatsApp,2026-09-28 11:33:24,2026-09-30 14:33:24,2026-10-01 14:33:24,converted,True,campaign_share_sheet
+REF_0258,USR_00670,USR_00836,Telegram,2026-08-25 14:15:09,2026-08-26 03:15:09,2026-08-27 06:15:09,converted,True,campaign_share_sheet
+REF_0259,USR_00747,USR_00914,WhatsApp,2026-06-11 05:17:18,2026-06-11 19:17:18,2026-06-12 10:17:18,converted,True,campaign_share_sheet
+REF_0260,USR_00466,USR_00185,Twitter,2026-06-08 08:08:28,2026-06-09 04:08:28,2026-06-09 07:08:28,activated,False,campaign_share_sheet
+REF_0261,USR_00600,USR_00766,DirectLink,2026-05-27 02:00:19,2026-05-27 06:00:19,2026-05-27 15:00:19,activated,False,campaign_share_sheet
+REF_0262,USR_00112,USR_00795,DirectLink,2026-04-03 06:42:01,2026-04-05 05:42:01,2026-04-05 07:42:01,converted,True,campaign_share_sheet
+REF_0263,USR_00977,USR_00930,DirectLink,2026-08-10 16:50:54,2026-08-11 23:50:54,2026-08-13 14:50:54,activated,False,campaign_share_sheet
+REF_0264,USR_00634,USR_00215,Telegram,2026-04-12 01:35:14,2026-04-13 15:35:14,,registered,False,campaign_share_sheet
+REF_0265,USR_00585,USR_00297,WhatsApp,2026-08-01 11:09:09,2026-08-03 14:09:09,,registered,False,campaign_share_sheet
+REF_0266,USR_00008,,Twitter,2026-10-22 01:39:40,,,link_created,False,campaign_share_sheet
+REF_0267,USR_00843,USR_00778,WhatsApp,2026-08-05 21:46:29,2026-08-08 06:46:29,2026-08-09 02:46:29,activated,False,campaign_share_sheet
+REF_0268,USR_00017,USR_00773,Telegram,2026-10-15 15:26:49,2026-10-17 06:26:49,2026-10-17 20:26:49,activated,False,campaign_share_sheet
+REF_0269,USR_00344,USR_00126,WhatsApp,2026-05-02 00:52:00,2026-05-04 12:52:00,2026-05-05 12:52:00,converted,True,campaign_share_sheet
+REF_0270,USR_00417,USR_00098,DirectLink,2026-06-16 16:50:28,2026-06-18 19:50:28,2026-06-19 07:50:28,converted,True,campaign_share_sheet
+REF_0271,USR_00096,USR_00265,WhatsApp,2026-03-28 10:00:52,2026-03-29 10:00:52,2026-03-31 02:00:52,converted,True,campaign_share_sheet
+REF_0272,USR_00414,USR_00752,WhatsApp,2026-01-04 20:10:49,2026-01-07 10:10:49,2026-01-08 11:10:49,activated,False,campaign_share_sheet
+REF_0273,USR_00091,USR_00150,Twitter,2026-01-16 11:29:49,2026-01-17 01:29:49,2026-01-18 03:29:49,activated,False,campaign_share_sheet
+REF_0274,USR_00374,,Twitter,2026-07-15 01:36:19,,,link_created,False,campaign_share_sheet
+REF_0275,USR_00614,USR_00745,WhatsApp,2026-06-28 11:13:43,2026-07-01 00:13:43,,registered,False,campaign_share_sheet
+REF_0276,USR_00757,USR_00366,DirectLink,2026-01-14 03:54:13,2026-01-14 13:54:13,,registered,False,campaign_share_sheet
+REF_0277,USR_00817,USR_00946,Telegram,2026-02-14 11:05:46,2026-02-17 07:05:46,,registered,False,campaign_share_sheet
+REF_0278,USR_00591,USR_00069,DirectLink,2026-03-25 02:17:52,2026-03-25 05:17:52,,registered,False,campaign_share_sheet
+REF_0279,USR_00302,,Telegram,2026-05-13 16:04:20,,,link_created,False,campaign_share_sheet
+REF_0280,USR_00096,,Twitter,2026-06-03 06:27:00,,,link_created,False,campaign_share_sheet
+REF_0281,USR_00519,USR_00091,Telegram,2026-03-14 11:27:43,2026-03-15 19:27:43,,registered,False,campaign_share_sheet
+REF_0282,USR_00012,USR_00038,WhatsApp,2026-04-16 06:33:02,2026-04-16 18:33:02,2026-04-18 06:33:02,activated,False,campaign_share_sheet
+REF_0283,USR_00405,,WhatsApp,2026-08-16 11:14:04,,,link_created,False,campaign_share_sheet
+REF_0284,USR_00386,USR_00124,Telegram,2026-03-04 04:02:07,2026-03-04 15:02:07,2026-03-06 03:02:07,converted,True,campaign_share_sheet
+REF_0285,USR_00485,USR_00454,WhatsApp,2026-06-02 20:19:43,2026-06-05 11:19:43,,registered,False,campaign_share_sheet
+REF_0286,USR_00207,USR_00174,WhatsApp,2026-03-14 03:28:29,2026-03-16 21:28:29,2026-03-17 22:28:29,converted,True,campaign_share_sheet
+REF_0287,USR_00370,USR_00279,WhatsApp,2026-10-10 13:23:39,2026-10-13 08:23:39,,registered,False,campaign_share_sheet
+REF_0288,USR_00345,USR_00753,WhatsApp,2026-02-18 11:46:34,2026-02-20 09:46:34,2026-02-21 23:46:34,activated,False,campaign_share_sheet
+REF_0289,USR_00670,USR_00177,Twitter,2026-09-02 01:09:05,2026-09-03 01:09:05,,registered,False,campaign_share_sheet
+REF_0290,USR_00295,,WhatsApp,2026-08-16 07:37:12,,,link_created,False,campaign_share_sheet
+REF_0291,USR_00980,USR_00959,WhatsApp,2026-04-16 09:08:26,2026-04-17 19:08:26,,registered,False,campaign_share_sheet
+REF_0292,USR_00031,USR_00477,Twitter,2026-10-06 11:21:53,2026-10-06 22:21:53,,registered,False,campaign_share_sheet
+REF_0293,USR_00953,USR_00196,Telegram,2026-05-15 05:12:47,2026-05-15 22:12:47,2026-05-16 07:12:47,converted,True,campaign_share_sheet
+REF_0294,USR_00059,USR_00426,Telegram,2026-08-18 11:56:21,2026-08-19 23:56:21,2026-08-21 10:56:21,converted,True,campaign_share_sheet
+REF_0295,USR_00427,USR_00837,Telegram,2026-01-26 13:54:26,2026-01-29 13:54:26,2026-01-30 00:54:26,converted,True,campaign_share_sheet
+REF_0296,USR_00384,,Twitter,2026-05-12 01:21:02,,,link_created,False,campaign_share_sheet
+REF_0297,USR_00132,USR_00903,WhatsApp,2026-04-25 10:07:33,2026-04-25 20:07:33,2026-04-26 04:07:33,activated,False,campaign_share_sheet
+REF_0298,USR_00794,USR_00386,WhatsApp,2026-07-07 10:35:17,2026-07-09 11:35:17,2026-07-11 11:35:17,converted,True,campaign_share_sheet
+REF_0299,USR_00068,,WhatsApp,2026-10-30 21:13:06,,,link_created,False,campaign_share_sheet
+REF_0300,USR_00565,USR_00709,WhatsApp,2026-03-09 22:00:15,2026-03-10 03:00:15,2026-03-11 15:00:15,converted,True,campaign_share_sheet
+REF_0301,USR_00457,USR_00500,Twitter,2026-02-14 05:17:52,2026-02-16 23:17:52,2026-02-17 00:17:52,activated,False,campaign_share_sheet
+REF_0302,USR_00581,,DirectLink,2026-07-12 00:22:55,,,link_created,False,campaign_share_sheet
+REF_0303,USR_00222,USR_00572,WhatsApp,2026-05-13 02:18:33,2026-05-14 18:18:33,2026-05-15 23:18:33,converted,True,campaign_share_sheet
+REF_0304,USR_00965,USR_00296,WhatsApp,2026-03-18 05:10:51,2026-03-19 01:10:51,2026-03-19 05:10:51,converted,True,campaign_share_sheet
+REF_0305,USR_00994,USR_00513,SMS,2026-09-26 08:09:32,2026-09-26 16:09:32,2026-09-28 16:09:32,converted,True,campaign_share_sheet
+REF_0306,USR_00251,USR_00857,WhatsApp,2026-06-17 07:23:51,2026-06-19 07:23:51,2026-06-20 21:23:51,converted,True,campaign_share_sheet
+REF_0307,USR_00208,USR_00543,Telegram,2026-05-03 16:40:33,2026-05-04 16:40:33,2026-05-05 23:40:33,converted,True,campaign_share_sheet
+REF_0308,USR_00943,USR_00174,Twitter,2026-09-12 01:00:33,2026-09-12 02:00:33,2026-09-13 23:00:33,converted,True,campaign_share_sheet
+REF_0309,USR_00293,USR_00636,Telegram,2026-10-03 02:46:16,2026-10-05 23:46:16,2026-10-06 04:46:16,converted,True,campaign_share_sheet
+REF_0310,USR_00990,USR_00160,Twitter,2026-01-27 23:50:05,2026-01-28 10:50:05,,registered,False,campaign_share_sheet
+REF_0311,USR_00723,USR_00200,Telegram,2026-03-30 12:14:10,2026-04-01 20:14:10,2026-04-03 19:14:10,converted,True,campaign_share_sheet
+REF_0312,USR_00080,USR_00427,Telegram,2026-05-29 17:01:01,2026-06-01 06:01:01,2026-06-01 18:01:01,activated,False,campaign_share_sheet
+REF_0313,USR_00915,USR_00162,WhatsApp,2026-07-13 05:26:34,2026-07-14 19:26:34,2026-07-15 01:26:34,activated,False,campaign_share_sheet
+REF_0314,USR_00044,USR_00109,Telegram,2026-03-06 07:45:20,2026-03-06 10:45:20,2026-03-07 21:45:20,converted,True,campaign_share_sheet
+REF_0315,USR_00231,USR_00935,Telegram,2026-01-06 03:37:19,2026-01-07 03:37:19,2026-01-07 05:37:19,converted,True,campaign_share_sheet
+REF_0316,USR_00855,USR_00795,WhatsApp,2026-08-13 17:52:04,2026-08-14 22:52:04,2026-08-16 15:52:04,converted,True,campaign_share_sheet
+REF_0317,USR_00138,,WhatsApp,2026-08-13 03:38:38,,,link_created,False,campaign_share_sheet
+REF_0318,USR_00906,USR_00873,DirectLink,2026-04-10 02:40:29,2026-04-11 21:40:29,2026-04-12 13:40:29,converted,True,campaign_share_sheet
+REF_0319,USR_00099,USR_00986,WhatsApp,2026-09-21 01:04:30,2026-09-23 20:04:30,2026-09-25 11:04:30,converted,True,campaign_share_sheet
+REF_0320,USR_00185,USR_00920,WhatsApp,2026-03-31 05:43:24,2026-04-01 11:43:24,2026-04-01 17:43:24,converted,True,campaign_share_sheet
+REF_0321,USR_00258,,Telegram,2026-08-17 09:42:18,,,link_created,False,campaign_share_sheet
+REF_0322,USR_00628,USR_00915,Telegram,2026-07-30 02:09:05,2026-07-31 01:09:05,2026-08-01 11:09:05,activated,False,campaign_share_sheet
+REF_0323,USR_00499,USR_00837,WhatsApp,2026-06-29 03:45:21,2026-06-29 09:45:21,2026-06-30 05:45:21,converted,True,campaign_share_sheet
+REF_0324,USR_00158,USR_00747,Telegram,2026-04-01 06:12:19,2026-04-03 10:12:19,2026-04-04 19:12:19,activated,False,campaign_share_sheet
+REF_0325,USR_00025,USR_00016,Telegram,2026-10-16 00:03:45,2026-10-18 14:03:45,2026-10-20 10:03:45,converted,True,campaign_share_sheet
+REF_0326,USR_00827,USR_00314,Telegram,2026-06-28 05:14:34,2026-06-29 02:14:34,2026-07-01 00:14:34,activated,False,campaign_share_sheet
+REF_0327,USR_00509,USR_00673,Twitter,2026-06-27 09:10:14,2026-06-29 21:10:14,2026-07-01 07:10:14,converted,True,campaign_share_sheet
+REF_0328,USR_00874,USR_00276,WhatsApp,2026-05-24 00:21:41,2026-05-24 09:21:41,2026-05-24 22:21:41,converted,True,campaign_share_sheet
+REF_0329,USR_00579,USR_00076,DirectLink,2026-05-06 07:16:29,2026-05-07 12:16:29,2026-05-07 20:16:29,activated,False,campaign_share_sheet
+REF_0330,USR_00965,USR_00722,Telegram,2026-10-05 16:40:02,2026-10-07 02:40:02,2026-10-07 19:40:02,converted,True,campaign_share_sheet
+REF_0331,USR_00594,USR_00907,Telegram,2026-09-19 05:18:56,2026-09-19 21:18:56,2026-09-21 11:18:56,converted,True,campaign_share_sheet
+REF_0332,USR_00396,USR_00188,WhatsApp,2026-04-09 03:47:57,2026-04-10 08:47:57,,registered,False,campaign_share_sheet
+REF_0333,USR_00230,USR_00193,WhatsApp,2026-04-12 01:13:08,2026-04-14 01:13:08,2026-04-15 23:13:08,converted,True,campaign_share_sheet
+REF_0334,USR_00614,USR_00402,Telegram,2026-09-11 10:27:47,2026-09-13 05:27:47,2026-09-13 10:27:47,activated,False,campaign_share_sheet
+REF_0335,USR_00011,USR_00169,Telegram,2026-07-24 02:09:00,2026-07-24 16:09:00,2026-07-25 21:09:00,activated,False,campaign_share_sheet
+REF_0336,USR_00106,USR_00738,DirectLink,2026-01-01 12:59:48,2026-01-03 22:59:48,,registered,False,campaign_share_sheet
+REF_0337,USR_00306,USR_00089,WhatsApp,2026-07-27 22:34:34,2026-07-29 18:34:34,2026-07-31 09:34:34,converted,True,campaign_share_sheet
+REF_0338,USR_00936,USR_00970,Twitter,2026-09-03 01:19:36,2026-09-05 09:19:36,2026-09-06 04:19:36,converted,True,campaign_share_sheet
+REF_0339,USR_00751,USR_00618,Twitter,2026-06-04 03:19:48,2026-06-06 13:19:48,2026-06-08 09:19:48,converted,True,campaign_share_sheet
+REF_0340,USR_00150,USR_00967,WhatsApp,2026-05-12 12:59:48,2026-05-15 04:59:48,2026-05-16 12:59:48,converted,True,campaign_share_sheet
+REF_0341,USR_00365,USR_00849,SMS,2026-04-02 17:21:23,2026-04-05 16:21:23,,registered,False,campaign_share_sheet
+REF_0342,USR_00132,,Telegram,2026-10-17 04:51:18,,,link_created,False,campaign_share_sheet
+REF_0343,USR_00480,USR_00211,WhatsApp,2026-07-28 12:20:40,2026-07-29 05:20:40,2026-07-29 23:20:40,converted,True,campaign_share_sheet
+REF_0344,USR_00520,,WhatsApp,2026-07-23 12:28:05,,,link_created,False,campaign_share_sheet
+REF_0345,USR_00944,USR_00948,WhatsApp,2026-10-06 05:38:53,2026-10-06 21:38:53,,registered,False,campaign_share_sheet
+REF_0346,USR_00888,USR_00675,WhatsApp,2026-06-15 21:03:50,2026-06-18 16:03:50,,registered,False,campaign_share_sheet
+REF_0347,USR_00629,USR_00317,WhatsApp,2026-07-06 13:04:29,2026-07-08 19:04:29,2026-07-10 09:04:29,converted,True,campaign_share_sheet
+REF_0348,USR_00859,USR_00619,WhatsApp,2026-03-20 06:24:44,2026-03-20 18:24:44,2026-03-22 15:24:44,converted,True,campaign_share_sheet
+REF_0349,USR_00381,USR_00429,Twitter,2026-09-21 06:17:12,2026-09-22 19:17:12,2026-09-24 11:17:12,converted,True,campaign_share_sheet
+REF_0350,USR_00128,USR_00544,Telegram,2026-10-05 00:24:44,2026-10-05 07:24:44,,registered,False,campaign_share_sheet
+REF_0351,USR_00703,USR_00377,DirectLink,2026-04-16 05:04:57,2026-04-16 20:04:57,2026-04-18 11:04:57,converted,True,campaign_share_sheet
+REF_0352,USR_00773,USR_00636,WhatsApp,2026-05-27 07:22:17,2026-05-28 07:22:17,2026-05-28 23:22:17,converted,True,campaign_share_sheet
+REF_0353,USR_00838,USR_00469,Telegram,2026-01-10 16:48:05,2026-01-11 01:48:05,2026-01-12 17:48:05,activated,False,campaign_share_sheet
+REF_0354,USR_00016,,Telegram,2026-02-14 12:08:00,,,link_created,False,campaign_share_sheet
+REF_0355,USR_00303,USR_00970,Telegram,2026-10-31 14:36:40,2026-11-02 04:36:40,,registered,False,campaign_share_sheet
+REF_0356,USR_00181,,WhatsApp,2026-05-05 07:32:12,,,link_created,False,campaign_share_sheet
+REF_0357,USR_00960,USR_00513,DirectLink,2026-06-08 21:10:36,2026-06-09 13:10:36,2026-06-11 04:10:36,converted,True,campaign_share_sheet
+REF_0358,USR_00245,,Telegram,2026-01-25 04:47:08,,,link_created,False,campaign_share_sheet
+REF_0359,USR_00724,USR_00537,DirectLink,2026-04-26 03:00:25,2026-04-27 05:00:25,2026-04-29 02:00:25,activated,False,campaign_share_sheet
+REF_0360,USR_00642,,Twitter,2026-01-10 12:04:55,,,link_created,False,campaign_share_sheet
+REF_0361,USR_00528,USR_00589,WhatsApp,2026-05-17 23:23:46,2026-05-20 23:23:46,2026-05-21 13:23:46,activated,False,campaign_share_sheet
+REF_0362,USR_00179,USR_00233,WhatsApp,2026-10-09 21:39:28,2026-10-11 16:39:28,2026-10-13 11:39:28,converted,True,campaign_share_sheet
+REF_0363,USR_00668,USR_00398,DirectLink,2026-10-08 21:15:06,2026-10-09 12:15:06,2026-10-10 04:15:06,activated,False,campaign_share_sheet
+REF_0364,USR_00212,USR_00802,WhatsApp,2026-03-29 22:27:57,2026-04-01 03:27:57,,registered,False,campaign_share_sheet
+REF_0365,USR_00831,USR_00299,WhatsApp,2026-08-21 02:05:14,2026-08-22 04:05:14,,registered,False,campaign_share_sheet
+REF_0366,USR_00149,USR_00459,WhatsApp,2026-04-06 00:45:38,2026-04-07 05:45:38,2026-04-08 04:45:38,activated,False,campaign_share_sheet
+REF_0367,USR_00392,,Telegram,2026-02-17 21:17:15,,,link_created,False,campaign_share_sheet
+REF_0368,USR_00547,,Telegram,2026-08-03 05:33:58,,,link_created,False,campaign_share_sheet
+REF_0369,USR_00216,,DirectLink,2026-09-13 03:06:40,,,link_created,False,campaign_share_sheet
+REF_0370,USR_00910,USR_00175,Telegram,2026-07-03 21:58:13,2026-07-04 04:58:13,,registered,False,campaign_share_sheet
+REF_0371,USR_00341,,DirectLink,2026-03-31 07:37:43,,,link_created,False,campaign_share_sheet
+REF_0372,USR_00548,USR_00606,Telegram,2026-02-16 21:23:57,2026-02-18 08:23:57,2026-02-18 18:23:57,converted,True,campaign_share_sheet
+REF_0373,USR_00514,USR_00812,Twitter,2026-02-13 03:55:41,2026-02-15 10:55:41,2026-02-16 07:55:41,activated,False,campaign_share_sheet
+REF_0374,USR_00460,USR_00397,DirectLink,2026-04-20 11:07:04,2026-04-21 15:07:04,2026-04-23 06:07:04,activated,False,campaign_share_sheet
+REF_0375,USR_00961,,Telegram,2026-03-05 01:00:36,,,link_created,False,campaign_share_sheet
+REF_0376,USR_00020,USR_00536,SMS,2026-03-20 21:45:03,2026-03-23 05:45:03,,registered,False,campaign_share_sheet
+REF_0377,USR_00663,,WhatsApp,2026-06-05 21:41:32,,,link_created,False,campaign_share_sheet
+REF_0378,USR_00411,USR_00944,WhatsApp,2026-09-27 10:03:56,2026-09-29 02:03:56,,registered,False,campaign_share_sheet
+REF_0379,USR_00001,USR_00659,Telegram,2026-06-12 06:23:02,2026-06-13 21:23:02,2026-06-14 07:23:02,converted,True,campaign_share_sheet
+REF_0380,USR_00375,USR_00210,WhatsApp,2026-03-26 04:27:50,2026-03-28 07:27:50,,registered,False,campaign_share_sheet
+REF_0381,USR_00644,USR_00696,WhatsApp,2026-04-01 04:22:12,2026-04-04 03:22:12,2026-04-04 05:22:12,activated,False,campaign_share_sheet
+REF_0382,USR_00082,USR_00936,Telegram,2026-02-08 01:49:13,2026-02-10 23:49:13,,registered,False,campaign_share_sheet
+REF_0383,USR_00539,USR_00211,WhatsApp,2026-03-09 21:46:40,2026-03-12 19:46:40,2026-03-14 18:46:40,activated,False,campaign_share_sheet
+REF_0384,USR_00210,USR_00182,WhatsApp,2026-10-11 01:25:15,2026-10-11 06:25:15,2026-10-13 03:25:15,activated,False,campaign_share_sheet
+REF_0385,USR_00034,USR_00698,SMS,2026-05-18 10:17:24,2026-05-20 06:17:24,2026-05-21 11:17:24,converted,True,campaign_share_sheet
+REF_0386,USR_00991,USR_00592,Twitter,2026-03-05 20:07:08,2026-03-08 03:07:08,2026-03-09 22:07:08,converted,True,campaign_share_sheet
+REF_0387,USR_00139,USR_00085,Twitter,2026-06-08 10:47:16,2026-06-11 08:47:16,2026-06-12 12:47:16,converted,True,campaign_share_sheet
+REF_0388,USR_00078,USR_00953,WhatsApp,2026-08-14 20:39:58,2026-08-16 04:39:58,2026-08-18 03:39:58,activated,False,campaign_share_sheet
+REF_0389,USR_00948,USR_00948,SMS,2026-10-21 12:01:44,2026-10-23 20:01:44,2026-10-25 16:01:44,converted,True,campaign_share_sheet
+REF_0390,USR_00302,USR_00657,Twitter,2026-01-23 23:53:37,2026-01-25 18:53:37,2026-01-27 05:53:37,converted,True,campaign_share_sheet
+REF_0391,USR_00037,USR_00833,SMS,2026-10-31 16:35:45,2026-11-01 02:35:45,,registered,False,campaign_share_sheet
+REF_0392,USR_00565,USR_00716,WhatsApp,2026-05-01 13:18:17,2026-05-04 05:18:17,2026-05-05 13:18:17,converted,True,campaign_share_sheet
+REF_0393,USR_00271,USR_00905,WhatsApp,2026-05-18 13:12:53,2026-05-19 05:12:53,,registered,False,campaign_share_sheet
+REF_0394,USR_00565,USR_00509,WhatsApp,2026-07-25 09:49:58,2026-07-26 23:49:58,,registered,False,campaign_share_sheet
+REF_0395,USR_00072,USR_00182,WhatsApp,2026-05-31 14:44:12,2026-06-03 10:44:12,2026-06-04 07:44:12,converted,True,campaign_share_sheet
+REF_0396,USR_00391,USR_00251,DirectLink,2026-06-07 19:56:39,2026-06-09 01:56:39,,registered,False,campaign_share_sheet
+REF_0397,USR_00466,,DirectLink,2026-06-08 07:22:23,,,link_created,False,campaign_share_sheet
+REF_0398,USR_00993,USR_00911,WhatsApp,2026-09-15 17:07:18,2026-09-16 17:07:18,,registered,False,campaign_share_sheet
+REF_0399,USR_00251,USR_00816,WhatsApp,2026-05-11 08:04:39,2026-05-11 20:04:39,,registered,False,campaign_share_sheet
+REF_0400,USR_00548,USR_00150,Telegram,2026-09-02 21:59:18,2026-09-03 11:59:18,,registered,False,campaign_share_sheet
+REF_0401,USR_00131,USR_00590,WhatsApp,2026-08-05 18:09:51,2026-08-06 03:09:51,2026-08-06 19:09:51,converted,True,campaign_share_sheet
+REF_0402,USR_00031,USR_00022,WhatsApp,2026-09-30 00:55:52,2026-09-30 20:55:52,,registered,False,campaign_share_sheet
+REF_0403,USR_00502,USR_00388,Telegram,2026-02-03 08:26:21,2026-02-06 03:26:21,,registered,False,campaign_share_sheet
+REF_0404,USR_00096,USR_00971,Telegram,2026-04-14 00:16:51,2026-04-16 06:16:51,,registered,False,campaign_share_sheet
+REF_0405,USR_00742,,Twitter,2026-01-20 21:58:19,,,link_created,False,campaign_share_sheet
+REF_0406,USR_00418,USR_00244,WhatsApp,2026-02-24 14:23:04,2026-02-24 19:23:04,2026-02-26 09:23:04,activated,False,campaign_share_sheet
+REF_0407,USR_00286,USR_00793,Telegram,2026-06-28 03:23:47,2026-06-30 13:23:47,2026-07-01 15:23:47,activated,False,campaign_share_sheet
+REF_0408,USR_00569,USR_00297,WhatsApp,2026-07-24 12:54:01,2026-07-25 14:54:01,2026-07-26 07:54:01,converted,True,campaign_share_sheet
+REF_0409,USR_00886,USR_00962,Telegram,2026-09-07 18:52:02,2026-09-09 06:52:02,,registered,False,campaign_share_sheet
+REF_0410,USR_00359,USR_00357,WhatsApp,2026-07-16 12:13:58,2026-07-17 22:13:58,2026-07-19 00:13:58,activated,False,campaign_share_sheet
+REF_0411,USR_00940,USR_00949,SMS,2026-03-21 22:17:02,2026-03-24 12:17:02,,registered,False,campaign_share_sheet
+REF_0412,USR_00232,,WhatsApp,2026-04-07 10:16:41,,,link_created,False,campaign_share_sheet
+REF_0413,USR_00012,USR_00009,WhatsApp,2026-01-17 05:55:45,2026-01-18 16:55:45,2026-01-19 22:55:45,converted,True,campaign_share_sheet
+REF_0414,USR_00111,,Twitter,2026-05-29 00:31:20,,,link_created,False,campaign_share_sheet
+REF_0415,USR_00910,USR_00725,WhatsApp,2026-02-28 20:48:00,2026-03-01 19:48:00,2026-03-02 19:48:00,activated,False,campaign_share_sheet
+REF_0416,USR_00278,USR_00053,Telegram,2026-10-17 06:44:11,2026-10-17 22:44:11,2026-10-18 07:44:11,activated,False,campaign_share_sheet
+REF_0417,USR_00704,USR_00902,Twitter,2026-07-24 09:33:04,2026-07-24 21:33:04,2026-07-26 11:33:04,converted,True,campaign_share_sheet
+REF_0418,USR_00321,USR_00122,Twitter,2026-01-05 15:20:34,2026-01-06 03:20:34,2026-01-06 12:20:34,activated,False,campaign_share_sheet
+REF_0419,USR_00652,USR_00537,WhatsApp,2026-05-14 13:54:08,2026-05-17 06:54:08,2026-05-17 13:54:08,converted,True,campaign_share_sheet
+REF_0420,USR_00591,USR_00325,Twitter,2026-07-12 06:07:31,2026-07-12 19:07:31,2026-07-13 15:07:31,activated,False,campaign_share_sheet
+REF_0421,USR_00427,USR_00461,Telegram,2026-05-16 03:05:06,2026-05-17 10:05:06,2026-05-18 15:05:06,converted,True,campaign_share_sheet
+REF_0422,USR_00051,USR_00291,WhatsApp,2026-07-11 16:36:35,2026-07-12 23:36:35,,registered,False,campaign_share_sheet
+REF_0423,USR_00711,USR_00856,Telegram,2026-09-14 04:02:42,2026-09-16 15:02:42,,registered,False,campaign_share_sheet
+REF_0424,USR_00789,USR_00265,WhatsApp,2026-05-23 16:12:42,2026-05-25 16:12:42,2026-05-26 08:12:42,converted,True,campaign_share_sheet
+REF_0425,USR_00962,USR_00294,WhatsApp,2026-05-05 17:31:08,2026-05-08 00:31:08,2026-05-10 00:31:08,converted,True,campaign_share_sheet
+REF_0426,USR_00183,USR_00591,WhatsApp,2026-02-18 22:36:09,2026-02-20 13:36:09,2026-02-21 19:36:09,activated,False,campaign_share_sheet
+REF_0427,USR_00854,USR_00063,Telegram,2026-06-07 02:36:15,2026-06-09 17:36:15,2026-06-10 13:36:15,converted,True,campaign_share_sheet
+REF_0428,USR_00874,USR_00636,Telegram,2026-10-29 10:01:58,2026-10-29 22:01:58,2026-10-31 16:01:58,activated,False,campaign_share_sheet
+REF_0429,USR_00171,USR_00254,WhatsApp,2026-05-28 19:27:21,2026-05-30 19:27:21,,registered,False,campaign_share_sheet
+REF_0430,USR_00613,USR_00330,WhatsApp,2026-02-08 02:52:00,2026-02-08 15:52:00,2026-02-10 02:52:00,converted,True,campaign_share_sheet
+REF_0431,USR_00881,USR_00330,Telegram,2026-05-25 00:26:00,2026-05-25 08:26:00,2026-05-25 12:26:00,converted,True,campaign_share_sheet
+REF_0432,USR_00344,USR_00901,SMS,2026-07-17 21:43:46,2026-07-20 01:43:46,2026-07-20 23:43:46,converted,True,campaign_share_sheet
+REF_0433,USR_00480,USR_00427,Telegram,2026-01-04 00:34:36,2026-01-06 00:34:36,2026-01-06 18:34:36,converted,True,campaign_share_sheet
+REF_0434,USR_00747,USR_00347,Telegram,2026-04-16 16:29:04,2026-04-18 17:29:04,2026-04-20 17:29:04,activated,False,campaign_share_sheet
+REF_0435,USR_00786,USR_00511,DirectLink,2026-08-08 20:06:35,2026-08-10 19:06:35,2026-08-11 19:06:35,converted,True,campaign_share_sheet
+REF_0436,USR_00473,,WhatsApp,2026-10-24 08:04:06,,,link_created,False,campaign_share_sheet
+REF_0437,USR_00276,USR_00090,WhatsApp,2026-04-24 07:07:37,2026-04-26 01:07:37,2026-04-26 10:07:37,converted,True,campaign_share_sheet
+REF_0438,USR_00198,USR_00326,WhatsApp,2026-08-26 19:42:00,2026-08-26 23:42:00,,registered,False,campaign_share_sheet
+REF_0439,USR_00700,USR_00532,WhatsApp,2026-02-04 18:17:34,2026-02-07 02:17:34,,registered,False,campaign_share_sheet
+REF_0440,USR_00182,USR_00301,Twitter,2026-08-19 12:31:37,2026-08-20 10:31:37,,registered,False,campaign_share_sheet
+REF_0441,USR_00025,USR_00122,WhatsApp,2026-02-08 03:41:24,2026-02-10 14:41:24,2026-02-10 23:41:24,activated,False,campaign_share_sheet
+REF_0442,USR_00868,USR_00333,WhatsApp,2026-03-14 00:34:30,2026-03-15 05:34:30,,registered,False,campaign_share_sheet
+REF_0443,USR_00286,USR_00572,WhatsApp,2026-03-09 14:20:27,2026-03-10 08:20:27,,registered,False,campaign_share_sheet
+REF_0444,USR_00330,,Twitter,2026-02-02 20:48:13,,,link_created,False,campaign_share_sheet
+REF_0445,USR_00605,USR_00504,WhatsApp,2026-09-12 00:23:32,2026-09-14 18:23:32,2026-09-16 01:23:32,converted,True,campaign_share_sheet
+REF_0446,USR_00236,,WhatsApp,2026-04-23 03:55:30,,,link_created,False,campaign_share_sheet
+REF_0447,USR_00802,USR_00166,SMS,2026-04-03 23:49:53,2026-04-05 02:49:53,2026-04-05 05:49:53,converted,True,campaign_share_sheet
+REF_0448,USR_00804,USR_00348,Telegram,2026-09-30 23:17:32,2026-10-03 15:17:32,2026-10-03 22:17:32,converted,True,campaign_share_sheet
+REF_0449,USR_00708,USR_00077,Telegram,2026-03-24 07:25:29,2026-03-27 00:25:29,,registered,False,campaign_share_sheet
+REF_0450,USR_00492,USR_00548,WhatsApp,2026-07-01 02:42:40,2026-07-03 20:42:40,,registered,False,campaign_share_sheet
+REF_0451,USR_00947,,WhatsApp,2026-08-19 00:48:32,,,link_created,False,campaign_share_sheet
+REF_0452,USR_00832,USR_00180,WhatsApp,2026-09-23 03:32:05,2026-09-24 21:32:05,2026-09-26 08:32:05,activated,False,campaign_share_sheet
+REF_0453,USR_00352,USR_00357,Twitter,2026-04-06 20:48:54,2026-04-08 16:48:54,2026-04-09 00:48:54,converted,True,campaign_share_sheet
+REF_0454,USR_00348,USR_00324,WhatsApp,2026-04-15 22:56:31,2026-04-17 06:56:31,,registered,False,campaign_share_sheet
+REF_0455,USR_00465,USR_00605,WhatsApp,2026-01-21 23:40:21,2026-01-24 15:40:21,2026-01-25 00:40:21,converted,True,campaign_share_sheet
+REF_0456,USR_00995,USR_00597,WhatsApp,2026-04-22 10:12:06,2026-04-25 04:12:06,2026-04-25 23:12:06,activated,False,campaign_share_sheet
+REF_0457,USR_00616,USR_00038,Telegram,2026-10-21 21:45:27,2026-10-24 04:45:27,2026-10-24 21:45:27,converted,True,campaign_share_sheet
+REF_0458,USR_00723,USR_00331,DirectLink,2026-02-16 03:38:01,2026-02-17 18:38:01,2026-02-19 18:38:01,converted,True,campaign_share_sheet
+REF_0459,USR_00171,USR_00990,Twitter,2026-05-21 21:27:10,2026-05-22 04:27:10,2026-05-23 17:27:10,converted,True,campaign_share_sheet
+REF_0460,USR_00970,,Telegram,2026-09-21 01:16:01,,,link_created,False,campaign_share_sheet
+REF_0461,USR_00213,USR_00366,Twitter,2026-04-07 09:36:41,2026-04-10 00:36:41,2026-04-11 13:36:41,converted,True,campaign_share_sheet
+REF_0462,USR_00763,USR_00392,WhatsApp,2026-01-19 22:27:48,2026-01-20 01:27:48,,registered,False,campaign_share_sheet
+REF_0463,USR_00584,USR_00473,WhatsApp,2026-07-31 23:12:39,2026-08-02 01:12:39,,registered,False,campaign_share_sheet
+REF_0464,USR_00633,USR_00367,Telegram,2026-05-12 22:46:14,2026-05-14 09:46:14,,registered,False,campaign_share_sheet
+REF_0465,USR_00383,USR_00792,Telegram,2026-01-03 14:53:31,2026-01-04 14:53:31,2026-01-06 05:53:31,converted,True,campaign_share_sheet
+REF_0466,USR_00430,USR_00053,WhatsApp,2026-05-14 14:09:08,2026-05-15 23:09:08,,registered,False,campaign_share_sheet
+REF_0467,USR_00523,USR_00991,Twitter,2026-06-09 13:58:14,2026-06-09 21:58:14,2026-06-11 12:58:14,converted,True,campaign_share_sheet
+REF_0468,USR_00611,USR_00437,SMS,2026-05-18 12:26:24,2026-05-21 11:26:24,2026-05-22 03:26:24,converted,True,campaign_share_sheet
+REF_0469,USR_00346,,WhatsApp,2026-01-22 01:13:25,,,link_created,False,campaign_share_sheet
+REF_0470,USR_00922,USR_00341,WhatsApp,2026-07-24 05:14:26,2026-07-24 09:14:26,2026-07-24 21:14:26,converted,True,campaign_share_sheet
+REF_0471,USR_00506,USR_00705,WhatsApp,2026-05-21 17:47:07,2026-05-24 08:47:07,,registered,False,campaign_share_sheet
+REF_0472,USR_00753,,WhatsApp,2026-01-21 12:57:02,,,link_created,False,campaign_share_sheet
+REF_0473,USR_00308,USR_00654,DirectLink,2026-03-10 21:34:56,2026-03-12 17:34:56,2026-03-12 19:34:56,activated,False,campaign_share_sheet
+REF_0474,USR_00270,USR_00636,WhatsApp,2026-09-02 13:09:36,2026-09-03 21:09:36,,registered,False,campaign_share_sheet
+REF_0475,USR_00421,USR_00041,WhatsApp,2026-07-31 05:49:39,2026-08-01 01:49:39,2026-08-01 08:49:39,activated,False,campaign_share_sheet
+REF_0476,USR_00139,USR_00331,WhatsApp,2026-01-12 04:41:37,2026-01-14 23:41:37,2026-01-15 02:41:37,converted,True,campaign_share_sheet
+REF_0477,USR_00699,USR_00870,DirectLink,2026-09-01 09:58:29,2026-09-02 22:58:29,2026-09-03 23:58:29,activated,False,campaign_share_sheet
+REF_0478,USR_00029,USR_00339,WhatsApp,2026-06-03 06:06:50,2026-06-04 10:06:50,,registered,False,campaign_share_sheet
+REF_0479,USR_00023,USR_00970,Telegram,2026-08-29 20:57:09,2026-09-01 04:57:09,2026-09-01 17:57:09,converted,True,campaign_share_sheet
+REF_0480,USR_00343,USR_00416,WhatsApp,2026-08-23 08:20:33,2026-08-23 15:20:33,,registered,False,campaign_share_sheet
+REF_0481,USR_00414,USR_00498,WhatsApp,2026-10-16 08:00:23,2026-10-17 09:00:23,2026-10-19 08:00:23,activated,False,campaign_share_sheet
+REF_0482,USR_00635,USR_00371,WhatsApp,2026-01-16 12:07:16,2026-01-18 02:07:16,2026-01-18 15:07:16,converted,True,campaign_share_sheet
+REF_0483,USR_00460,USR_00214,Twitter,2026-03-14 07:14:13,2026-03-14 18:14:13,2026-03-16 09:14:13,converted,True,campaign_share_sheet
+REF_0484,USR_00697,USR_00173,WhatsApp,2026-03-24 04:22:08,2026-03-24 14:22:08,,registered,False,campaign_share_sheet
+REF_0485,USR_00806,USR_00131,Telegram,2026-01-19 04:43:18,2026-01-19 10:43:18,2026-01-20 00:43:18,activated,False,campaign_share_sheet
+REF_0486,USR_00599,,Telegram,2026-07-09 22:42:18,,,link_created,False,campaign_share_sheet
+REF_0487,USR_00815,USR_00039,WhatsApp,2026-08-01 20:54:07,2026-08-04 06:54:07,2026-08-06 06:54:07,activated,False,campaign_share_sheet
+REF_0488,USR_00550,,SMS,2026-10-31 21:26:18,,,link_created,False,campaign_share_sheet
+REF_0489,USR_00666,USR_00632,WhatsApp,2026-07-20 14:18:56,2026-07-22 18:18:56,,registered,False,campaign_share_sheet
+REF_0490,USR_00610,USR_00013,DirectLink,2026-10-28 22:52:47,2026-10-31 04:52:47,,registered,False,campaign_share_sheet
+REF_0491,USR_00965,USR_00562,SMS,2026-05-30 17:44:45,2026-06-02 10:44:45,2026-06-03 06:44:45,converted,True,campaign_share_sheet
+REF_0492,USR_00222,USR_00478,DirectLink,2026-03-18 05:07:12,2026-03-19 23:07:12,,registered,False,campaign_share_sheet
+REF_0493,USR_00038,USR_00253,Telegram,2026-08-21 00:15:13,2026-08-23 21:15:13,2026-08-24 02:15:13,converted,True,campaign_share_sheet
+REF_0494,USR_00737,USR_00883,Telegram,2026-03-11 21:03:09,2026-03-13 11:03:09,2026-03-15 02:03:09,activated,False,campaign_share_sheet
+REF_0495,USR_00835,USR_00300,WhatsApp,2026-01-18 07:36:18,2026-01-18 14:36:18,2026-01-19 14:36:18,converted,True,campaign_share_sheet
+REF_0496,USR_00338,USR_00258,SMS,2026-03-19 09:03:25,2026-03-20 21:03:25,,registered,False,campaign_share_sheet
+REF_0497,USR_00417,USR_00575,Telegram,2026-08-30 10:20:57,2026-08-31 20:20:57,2026-09-02 03:20:57,converted,True,campaign_share_sheet
+REF_0498,USR_00730,USR_00314,Telegram,2026-04-06 05:37:41,2026-04-07 13:37:41,2026-04-09 03:37:41,converted,True,campaign_share_sheet
+REF_0499,USR_00350,,DirectLink,2026-03-25 08:53:50,,,link_created,False,campaign_share_sheet
+REF_0500,USR_00197,USR_00014,Twitter,2026-05-23 17:32:04,2026-05-24 05:32:04,2026-05-25 03:32:04,activated,False,campaign_share_sheet
+REF_0501,USR_00862,USR_00408,Twitter,2026-04-01 04:00:42,2026-04-03 23:00:42,2026-04-04 18:00:42,activated,False,campaign_share_sheet
+REF_0502,USR_00631,,WhatsApp,2026-06-10 11:23:39,,,link_created,False,campaign_share_sheet
+REF_0503,USR_00020,USR_00941,WhatsApp,2026-01-14 16:46:42,2026-01-15 21:46:42,,registered,False,campaign_share_sheet
+REF_0504,USR_00041,,WhatsApp,2026-03-05 01:38:08,,,link_created,False,campaign_share_sheet
+REF_0505,USR_00808,USR_00730,WhatsApp,2026-08-25 05:55:34,2026-08-28 02:55:34,,registered,False,campaign_share_sheet
+REF_0506,USR_00965,USR_00124,WhatsApp,2026-06-04 19:38:00,2026-06-07 10:38:00,,registered,False,campaign_share_sheet
+REF_0507,USR_00257,USR_00772,WhatsApp,2026-07-17 02:11:53,2026-07-19 01:11:53,2026-07-20 01:11:53,converted,True,campaign_share_sheet
+REF_0508,USR_00390,USR_00696,WhatsApp,2026-01-20 03:41:28,2026-01-23 01:41:28,,registered,False,campaign_share_sheet
+REF_0509,USR_00101,USR_00515,DirectLink,2026-10-01 10:19:16,2026-10-03 11:19:16,,registered,False,campaign_share_sheet
+REF_0510,USR_00974,USR_00427,WhatsApp,2026-02-05 14:34:08,2026-02-07 20:34:08,2026-02-08 05:34:08,converted,True,campaign_share_sheet
+REF_0511,USR_00328,USR_00545,WhatsApp,2026-04-29 17:07:43,2026-05-02 07:07:43,,registered,False,campaign_share_sheet
+REF_0512,USR_00853,USR_00288,WhatsApp,2026-10-02 08:02:42,2026-10-02 20:02:42,2026-10-03 02:02:42,activated,False,campaign_share_sheet
+REF_0513,USR_00018,USR_00702,WhatsApp,2026-07-14 16:11:48,2026-07-15 15:11:48,2026-07-17 09:11:48,activated,False,campaign_share_sheet
+REF_0514,USR_00970,USR_00687,DirectLink,2026-06-02 15:17:32,2026-06-03 05:17:32,2026-06-03 18:17:32,converted,True,campaign_share_sheet
+REF_0515,USR_00355,USR_00289,Telegram,2026-09-12 21:52:32,2026-09-15 17:52:32,2026-09-17 07:52:32,converted,True,campaign_share_sheet
+REF_0516,USR_00396,USR_00412,WhatsApp,2026-06-07 03:00:49,2026-06-07 23:00:49,2026-06-09 07:00:49,activated,False,campaign_share_sheet
+REF_0517,USR_00373,USR_00489,WhatsApp,2026-10-17 04:11:36,2026-10-19 19:11:36,2026-10-21 09:11:36,converted,True,campaign_share_sheet
+REF_0518,USR_00078,USR_00259,WhatsApp,2026-01-03 14:17:30,2026-01-05 23:17:30,2026-01-06 11:17:30,converted,True,campaign_share_sheet
+REF_0519,USR_00395,,WhatsApp,2026-06-09 06:17:06,,,link_created,False,campaign_share_sheet
+REF_0520,USR_00252,USR_00288,Telegram,2026-03-22 22:09:50,2026-03-23 23:09:50,2026-03-24 19:09:50,activated,False,campaign_share_sheet
+REF_0521,USR_00604,USR_00687,Telegram,2026-08-03 21:08:01,2026-08-04 05:08:01,2026-08-04 07:08:01,activated,False,campaign_share_sheet
+REF_0522,USR_00851,USR_00028,WhatsApp,2026-10-20 09:50:26,2026-10-21 07:50:26,2026-10-22 00:50:26,converted,True,campaign_share_sheet
+REF_0523,USR_00196,USR_00080,DirectLink,2026-01-09 14:46:12,2026-01-10 07:46:12,2026-01-11 12:46:12,converted,True,campaign_share_sheet
+REF_0524,USR_00511,USR_00430,Twitter,2026-05-26 19:55:10,2026-05-28 22:55:10,,registered,False,campaign_share_sheet
+REF_0525,USR_00985,USR_00646,WhatsApp,2026-02-21 14:15:14,2026-02-23 14:15:14,2026-02-24 21:15:14,activated,False,campaign_share_sheet
+REF_0526,USR_00602,USR_00124,WhatsApp,2026-07-03 10:34:46,2026-07-03 23:34:46,2026-07-04 08:34:46,converted,True,campaign_share_sheet
+REF_0527,USR_00820,,WhatsApp,2026-07-15 07:43:05,,,link_created,False,campaign_share_sheet
+REF_0528,USR_00319,USR_00823,WhatsApp,2026-03-09 19:50:24,2026-03-10 18:50:24,,registered,False,campaign_share_sheet
+REF_0529,USR_00884,USR_00702,WhatsApp,2026-07-08 20:41:41,2026-07-09 16:41:41,,registered,False,campaign_share_sheet
+REF_0530,USR_00086,USR_00062,Telegram,2026-10-03 15:48:53,2026-10-05 04:48:53,2026-10-06 11:48:53,converted,True,campaign_share_sheet
+REF_0531,USR_00615,USR_00748,Telegram,2026-10-09 00:51:49,2026-10-09 12:51:49,,registered,False,campaign_share_sheet
+REF_0532,USR_00227,USR_00483,Telegram,2026-06-17 23:35:46,2026-06-18 08:35:46,2026-06-20 01:35:46,converted,True,campaign_share_sheet
+REF_0533,USR_00461,,SMS,2026-07-23 20:55:53,,,link_created,False,campaign_share_sheet
+REF_0534,USR_00850,,Twitter,2026-08-17 10:13:57,,,link_created,False,campaign_share_sheet
+REF_0535,USR_00555,,Twitter,2026-09-02 02:08:24,,,link_created,False,campaign_share_sheet
+REF_0536,USR_00627,USR_00704,Telegram,2026-08-21 17:30:19,2026-08-22 13:30:19,2026-08-23 14:30:19,activated,False,campaign_share_sheet
+REF_0537,USR_00976,USR_00770,Twitter,2026-04-02 11:12:54,2026-04-03 04:12:54,2026-04-04 09:12:54,converted,True,campaign_share_sheet
+REF_0538,USR_00984,USR_00339,WhatsApp,2026-08-19 20:33:51,2026-08-21 17:33:51,,registered,False,campaign_share_sheet
+REF_0539,USR_00718,USR_00514,WhatsApp,2026-05-14 15:47:45,2026-05-15 22:47:45,2026-05-16 12:47:45,activated,False,campaign_share_sheet
+REF_0540,USR_00218,,Telegram,2026-01-18 20:24:54,,,link_created,False,campaign_share_sheet
+REF_0541,USR_00575,USR_00957,WhatsApp,2026-07-05 02:11:28,2026-07-07 20:11:28,,registered,False,campaign_share_sheet
+REF_0542,USR_00179,USR_00188,WhatsApp,2026-10-01 13:08:26,2026-10-04 11:08:26,2026-10-05 11:08:26,converted,True,campaign_share_sheet
+REF_0543,USR_00838,USR_00325,Telegram,2026-03-02 12:41:31,2026-03-04 22:41:31,2026-03-06 15:41:31,converted,True,campaign_share_sheet
+REF_0544,USR_00739,USR_00339,WhatsApp,2026-03-31 20:11:02,2026-04-02 22:11:02,2026-04-03 12:11:02,converted,True,campaign_share_sheet
+REF_0545,USR_00904,USR_00292,WhatsApp,2026-09-13 21:14:08,2026-09-16 11:14:08,,registered,False,campaign_share_sheet
+REF_0546,USR_00288,USR_00373,Telegram,2026-08-10 02:00:33,2026-08-10 18:00:33,2026-08-11 10:00:33,activated,False,campaign_share_sheet
+REF_0547,USR_00110,USR_00869,WhatsApp,2026-02-02 06:17:51,2026-02-04 06:17:51,,registered,False,campaign_share_sheet
+REF_0548,USR_00143,USR_00967,Twitter,2026-03-06 05:43:05,2026-03-09 01:43:05,,registered,False,campaign_share_sheet
+REF_0549,USR_00103,USR_00649,DirectLink,2026-05-17 08:39:53,2026-05-19 06:39:53,,registered,False,campaign_share_sheet
+REF_0550,USR_00597,USR_00218,WhatsApp,2026-07-26 19:39:37,2026-07-29 02:39:37,2026-07-31 01:39:37,converted,True,campaign_share_sheet
+REF_0551,USR_00620,USR_00038,Telegram,2026-07-24 13:56:46,2026-07-27 07:56:46,,registered,False,campaign_share_sheet
+REF_0552,USR_00730,USR_00260,SMS,2026-08-03 15:09:06,2026-08-04 10:09:06,,registered,False,campaign_share_sheet
+REF_0553,USR_00266,USR_00277,WhatsApp,2026-05-25 06:02:43,2026-05-27 01:02:43,2026-05-28 23:02:43,converted,True,campaign_share_sheet
+REF_0554,USR_00183,USR_00295,WhatsApp,2026-03-09 01:16:35,2026-03-10 14:16:35,2026-03-11 14:16:35,activated,False,campaign_share_sheet
+REF_0555,USR_00498,USR_00518,WhatsApp,2026-01-08 11:37:19,2026-01-10 15:37:19,,registered,False,campaign_share_sheet
+REF_0556,USR_00603,,WhatsApp,2026-09-13 23:01:36,,,link_created,False,campaign_share_sheet
+REF_0557,USR_00917,USR_00727,SMS,2026-02-03 15:25:56,2026-02-04 19:25:56,,registered,False,campaign_share_sheet
+REF_0558,USR_00930,USR_00061,WhatsApp,2026-03-03 11:54:21,2026-03-06 01:54:21,2026-03-06 14:54:21,converted,True,campaign_share_sheet
+REF_0559,USR_00064,,WhatsApp,2026-07-18 11:57:51,,,link_created,False,campaign_share_sheet
+REF_0560,USR_00087,USR_00251,WhatsApp,2026-04-18 17:32:37,2026-04-21 02:32:37,2026-04-22 01:32:37,activated,False,campaign_share_sheet
+REF_0561,USR_00484,USR_00760,Twitter,2026-04-18 01:43:48,2026-04-19 13:43:48,2026-04-20 13:43:48,activated,False,campaign_share_sheet
+REF_0562,USR_00967,USR_00488,WhatsApp,2026-09-10 11:45:16,2026-09-11 17:45:16,,registered,False,campaign_share_sheet
+REF_0563,USR_00848,,WhatsApp,2026-09-07 01:37:44,,,link_created,False,campaign_share_sheet
+REF_0564,USR_00075,USR_00293,WhatsApp,2026-06-07 20:37:47,2026-06-10 13:37:47,2026-06-11 19:37:47,converted,True,campaign_share_sheet
+REF_0565,USR_00433,USR_00099,Telegram,2026-05-24 06:07:00,2026-05-26 06:07:00,,registered,False,campaign_share_sheet
+REF_0566,USR_00825,USR_00432,WhatsApp,2026-08-07 19:34:13,2026-08-09 17:34:13,2026-08-10 15:34:13,converted,True,campaign_share_sheet
+REF_0567,USR_00707,USR_00885,DirectLink,2026-09-19 07:10:45,2026-09-21 16:10:45,,registered,False,campaign_share_sheet
+REF_0568,USR_00162,USR_00171,Telegram,2026-08-05 14:19:08,2026-08-06 00:19:08,2026-08-06 14:19:08,converted,True,campaign_share_sheet
+REF_0569,USR_00479,USR_00529,DirectLink,2026-01-21 13:50:46,2026-01-22 01:50:46,2026-01-22 21:50:46,converted,True,campaign_share_sheet
+REF_0570,USR_00533,USR_00191,DirectLink,2026-03-04 04:38:27,2026-03-04 21:38:27,2026-03-06 12:38:27,activated,False,campaign_share_sheet
+REF_0571,USR_00890,USR_00365,Twitter,2026-09-26 07:49:51,2026-09-27 09:49:51,,registered,False,campaign_share_sheet
+REF_0572,USR_00111,USR_00904,Telegram,2026-08-08 03:03:20,2026-08-09 20:03:20,2026-08-10 02:03:20,converted,True,campaign_share_sheet
+REF_0573,USR_00425,USR_00983,Twitter,2026-04-20 12:53:12,2026-04-21 01:53:12,,registered,False,campaign_share_sheet
+REF_0574,USR_00605,USR_00368,WhatsApp,2026-09-15 00:36:37,2026-09-16 11:36:37,2026-09-16 12:36:37,converted,True,campaign_share_sheet
+REF_0575,USR_00031,USR_00253,WhatsApp,2026-07-21 13:37:49,2026-07-24 08:37:49,2026-07-26 08:37:49,converted,True,campaign_share_sheet
+REF_0576,USR_00906,USR_00672,Twitter,2026-01-06 06:20:16,2026-01-07 17:20:16,2026-01-08 04:20:16,converted,True,campaign_share_sheet
+REF_0577,USR_00021,USR_00515,SMS,2026-10-31 09:16:01,2026-11-02 12:16:01,2026-11-04 09:16:01,activated,False,campaign_share_sheet
+REF_0578,USR_00120,USR_00044,Telegram,2026-09-28 07:44:15,2026-09-30 19:44:15,2026-10-02 09:44:15,activated,False,campaign_share_sheet
+REF_0579,USR_00598,USR_00827,Telegram,2026-08-18 17:43:31,2026-08-19 04:43:31,2026-08-19 19:43:31,converted,True,campaign_share_sheet
+REF_0580,USR_00114,USR_00550,Telegram,2026-02-10 21:27:23,2026-02-11 00:27:23,2026-02-12 19:27:23,converted,True,campaign_share_sheet
+REF_0581,USR_00578,,Telegram,2026-06-28 08:38:25,,,link_created,False,campaign_share_sheet
+REF_0582,USR_00085,,Telegram,2026-05-10 12:23:00,,,link_created,False,campaign_share_sheet
+REF_0583,USR_00292,USR_00761,Telegram,2026-09-27 13:20:30,2026-09-28 05:20:30,2026-09-29 09:20:30,activated,False,campaign_share_sheet
+REF_0584,USR_00948,USR_00986,WhatsApp,2026-07-08 17:49:34,2026-07-10 11:49:34,2026-07-11 15:49:34,converted,True,campaign_share_sheet
+REF_0585,USR_00521,USR_00581,Twitter,2026-01-20 01:52:14,2026-01-22 09:52:14,2026-01-23 13:52:14,converted,True,campaign_share_sheet
+REF_0586,USR_00543,USR_00132,Telegram,2026-08-01 08:48:47,2026-08-03 15:48:47,2026-08-05 03:48:47,converted,True,campaign_share_sheet
+REF_0587,USR_00197,USR_00615,WhatsApp,2026-01-09 23:29:50,2026-01-11 23:29:50,2026-01-12 09:29:50,activated,False,campaign_share_sheet
+REF_0588,USR_00728,USR_00679,WhatsApp,2026-07-20 08:22:36,2026-07-21 23:22:36,2026-07-22 03:22:36,converted,True,campaign_share_sheet
+REF_0589,USR_00074,USR_00321,SMS,2026-05-11 22:37:33,2026-05-12 09:37:33,2026-05-14 04:37:33,converted,True,campaign_share_sheet
+REF_0590,USR_00407,,Telegram,2026-01-08 00:55:45,,,link_created,False,campaign_share_sheet
+REF_0591,USR_00878,USR_00098,Telegram,2026-08-16 06:04:21,2026-08-16 20:04:21,,registered,False,campaign_share_sheet
+REF_0592,USR_00600,USR_00089,Telegram,2026-08-03 19:21:19,2026-08-05 20:21:19,2026-08-07 16:21:19,converted,True,campaign_share_sheet
+REF_0593,USR_00875,USR_00945,DirectLink,2026-10-26 13:08:08,2026-10-29 10:08:08,2026-10-30 18:08:08,converted,True,campaign_share_sheet
+REF_0594,USR_00222,,Telegram,2026-04-16 13:41:34,,,link_created,False,campaign_share_sheet
+REF_0595,USR_00062,USR_00130,Twitter,2026-08-06 06:52:50,2026-08-07 15:52:50,2026-08-09 07:52:50,activated,False,campaign_share_sheet
+REF_0596,USR_01000,USR_00501,DirectLink,2026-06-06 19:28:28,2026-06-08 19:28:28,,registered,False,campaign_share_sheet
+REF_0597,USR_00507,USR_00421,WhatsApp,2026-09-13 20:56:50,2026-09-15 13:56:50,,registered,False,campaign_share_sheet
+REF_0598,USR_00323,USR_00104,WhatsApp,2026-01-10 10:22:03,2026-01-11 12:22:03,,registered,False,campaign_share_sheet
+REF_0599,USR_00852,USR_00204,WhatsApp,2026-10-12 07:08:15,2026-10-14 09:08:15,2026-10-15 21:08:15,converted,True,campaign_share_sheet
+REF_0600,USR_00219,USR_00748,Telegram,2026-08-27 01:52:14,2026-08-29 02:52:14,2026-08-30 16:52:14,activated,False,campaign_share_sheet
+REF_0601,USR_00688,,Telegram,2026-05-14 15:08:14,,,link_created,False,campaign_share_sheet
+REF_0602,USR_00247,USR_00917,Telegram,2026-09-04 15:21:49,2026-09-06 13:21:49,2026-09-07 19:21:49,activated,False,campaign_share_sheet
+REF_0603,USR_00024,,WhatsApp,2026-01-18 15:29:59,,,link_created,False,campaign_share_sheet
+REF_0604,USR_00605,USR_00696,WhatsApp,2026-04-24 12:13:34,2026-04-25 07:13:34,2026-04-25 18:13:34,converted,True,campaign_share_sheet
+REF_0605,USR_00820,USR_00069,DirectLink,2026-04-16 05:01:33,2026-04-17 04:01:33,,registered,False,campaign_share_sheet
+REF_0606,USR_00249,USR_00906,Twitter,2026-07-21 15:01:57,2026-07-24 12:01:57,,registered,False,campaign_share_sheet
+REF_0607,USR_00682,USR_00051,SMS,2026-09-20 21:09:12,2026-09-21 23:09:12,2026-09-23 10:09:12,converted,True,campaign_share_sheet
+REF_0608,USR_00129,USR_00433,Twitter,2026-04-25 18:12:15,2026-04-26 01:12:15,2026-04-26 19:12:15,activated,False,campaign_share_sheet
+REF_0609,USR_00003,,Telegram,2026-08-11 20:09:13,,,link_created,False,campaign_share_sheet
+REF_0610,USR_00784,,Twitter,2026-03-13 10:43:22,,,link_created,False,campaign_share_sheet
+REF_0611,USR_00466,,DirectLink,2026-02-26 00:09:01,,,link_created,False,campaign_share_sheet
+REF_0612,USR_00178,USR_00628,WhatsApp,2026-02-28 11:53:32,2026-03-02 09:53:32,2026-03-02 22:53:32,activated,False,campaign_share_sheet
+REF_0613,USR_00488,,WhatsApp,2026-06-15 09:03:57,,,link_created,False,campaign_share_sheet
+REF_0614,USR_00959,USR_00607,Twitter,2026-01-03 03:40:05,2026-01-05 02:40:05,2026-01-05 15:40:05,converted,True,campaign_share_sheet
+REF_0615,USR_00200,USR_00485,Telegram,2026-10-05 23:03:12,2026-10-06 17:03:12,2026-10-06 20:03:12,activated,False,campaign_share_sheet
+REF_0616,USR_00477,USR_00306,Telegram,2026-06-04 03:23:01,2026-06-04 05:23:01,2026-06-05 05:23:01,converted,True,campaign_share_sheet
+REF_0617,USR_00640,USR_00018,WhatsApp,2026-07-13 07:30:57,2026-07-14 14:30:57,2026-07-15 20:30:57,converted,True,campaign_share_sheet
+REF_0618,USR_00357,USR_00866,WhatsApp,2026-09-16 16:51:59,2026-09-18 01:51:59,2026-09-19 01:51:59,activated,False,campaign_share_sheet
+REF_0619,USR_00883,USR_00559,DirectLink,2026-09-25 13:56:14,2026-09-28 08:56:14,,registered,False,campaign_share_sheet
+REF_0620,USR_00228,USR_00620,Twitter,2026-01-02 13:07:44,2026-01-03 07:07:44,2026-01-04 20:07:44,activated,False,campaign_share_sheet
+REF_0621,USR_00291,USR_00488,WhatsApp,2026-07-20 12:23:47,2026-07-20 19:23:47,2026-07-21 13:23:47,converted,True,campaign_share_sheet
+REF_0622,USR_00641,USR_00166,Telegram,2026-09-25 14:53:47,2026-09-27 05:53:47,,registered,False,campaign_share_sheet
+REF_0623,USR_00151,,Twitter,2026-06-23 04:30:34,,,link_created,False,campaign_share_sheet
+REF_0624,USR_00856,USR_00078,DirectLink,2026-02-02 17:54:25,2026-02-05 00:54:25,,registered,False,campaign_share_sheet
+REF_0625,USR_00974,USR_00684,Telegram,2026-03-24 10:02:25,2026-03-27 05:02:25,2026-03-27 07:02:25,converted,True,campaign_share_sheet
+REF_0626,USR_00041,USR_00495,Twitter,2026-04-15 14:59:42,2026-04-16 09:59:42,2026-04-16 10:59:42,activated,False,campaign_share_sheet
+REF_0627,USR_00184,USR_00594,Twitter,2026-09-27 01:26:51,2026-09-30 01:26:51,2026-10-01 23:26:51,activated,False,campaign_share_sheet
+REF_0628,USR_00186,USR_00622,Telegram,2026-03-24 22:37:26,2026-03-27 13:37:26,2026-03-27 14:37:26,converted,True,campaign_share_sheet
+REF_0629,USR_00858,USR_00486,SMS,2026-08-07 01:41:25,2026-08-09 14:41:25,2026-08-09 17:41:25,converted,True,campaign_share_sheet
+REF_0630,USR_00965,USR_00186,WhatsApp,2026-01-27 19:59:02,2026-01-29 10:59:02,,registered,False,campaign_share_sheet
+REF_0631,USR_00768,USR_00316,SMS,2026-03-09 03:26:30,2026-03-10 11:26:30,2026-03-10 17:26:30,activated,False,campaign_share_sheet
+REF_0632,USR_00051,,Telegram,2026-02-19 01:29:36,,,link_created,False,campaign_share_sheet
+REF_0633,USR_00244,USR_01000,WhatsApp,2026-02-25 09:53:28,2026-02-26 13:53:28,,registered,False,campaign_share_sheet
+REF_0634,USR_00446,USR_00295,Telegram,2026-07-03 05:02:15,2026-07-03 10:02:15,2026-07-03 13:02:15,converted,True,campaign_share_sheet
+REF_0635,USR_00653,USR_00375,SMS,2026-03-13 14:35:03,2026-03-15 00:35:03,,registered,False,campaign_share_sheet
+REF_0636,USR_00164,,WhatsApp,2026-07-12 23:32:21,,,link_created,False,campaign_share_sheet
+REF_0637,USR_00654,USR_00774,WhatsApp,2026-07-19 23:26:57,2026-07-22 17:26:57,2026-07-23 01:26:57,activated,False,campaign_share_sheet
+REF_0638,USR_00603,USR_00311,WhatsApp,2026-01-24 13:12:52,2026-01-25 14:12:52,2026-01-25 16:12:52,converted,True,campaign_share_sheet
+REF_0639,USR_00505,,WhatsApp,2026-02-10 15:17:48,,,link_created,False,campaign_share_sheet
+REF_0640,USR_00598,USR_00244,Telegram,2026-10-31 20:39:24,2026-11-01 02:39:24,2026-11-02 00:39:24,converted,True,campaign_share_sheet
+REF_0641,USR_00835,USR_00884,WhatsApp,2026-04-30 07:09:59,2026-05-03 06:09:59,2026-05-03 15:09:59,activated,False,campaign_share_sheet
+REF_0642,USR_00544,USR_00993,WhatsApp,2026-09-05 08:46:14,2026-09-08 06:46:14,2026-09-10 04:46:14,activated,False,campaign_share_sheet
+REF_0643,USR_00438,USR_00612,WhatsApp,2026-07-21 08:14:58,2026-07-21 21:14:58,,registered,False,campaign_share_sheet
+REF_0644,USR_00660,USR_00609,WhatsApp,2026-07-11 13:12:50,2026-07-13 04:12:50,2026-07-14 07:12:50,converted,True,campaign_share_sheet
+REF_0645,USR_00729,USR_00985,WhatsApp,2026-06-20 14:58:00,2026-06-21 10:58:00,2026-06-21 21:58:00,converted,True,campaign_share_sheet
+REF_0646,USR_00211,USR_00440,Twitter,2026-03-08 09:43:25,2026-03-09 18:43:25,2026-03-10 05:43:25,converted,True,campaign_share_sheet
+REF_0647,USR_00915,USR_00451,WhatsApp,2026-05-10 23:35:15,2026-05-12 11:35:15,,registered,False,campaign_share_sheet
+REF_0648,USR_00510,,DirectLink,2026-02-06 08:19:26,,,link_created,False,campaign_share_sheet
+REF_0649,USR_00944,USR_00535,Twitter,2026-10-14 17:06:26,2026-10-16 07:06:26,2026-10-16 16:06:26,converted,True,campaign_share_sheet
+REF_0650,USR_00428,USR_00602,Twitter,2026-05-21 12:24:17,2026-05-24 10:24:17,2026-05-25 06:24:17,converted,True,campaign_share_sheet
+REF_0651,USR_00060,USR_00093,Telegram,2026-06-08 03:47:22,2026-06-08 23:47:22,2026-06-09 17:47:22,activated,False,campaign_share_sheet
+REF_0652,USR_00381,USR_00478,WhatsApp,2026-01-10 21:38:44,2026-01-11 02:38:44,2026-01-11 09:38:44,converted,True,campaign_share_sheet
+REF_0653,USR_00174,USR_00951,WhatsApp,2026-09-05 07:31:07,2026-09-05 22:31:07,,registered,False,campaign_share_sheet
+REF_0654,USR_00934,USR_00773,WhatsApp,2026-08-04 08:52:53,2026-08-06 13:52:53,2026-08-06 17:52:53,converted,True,campaign_share_sheet
+REF_0655,USR_00505,,WhatsApp,2026-06-04 06:24:00,,,link_created,False,campaign_share_sheet
+REF_0656,USR_00114,,Telegram,2026-01-09 22:08:42,,,link_created,False,campaign_share_sheet
+REF_0657,USR_00914,USR_00808,Telegram,2026-06-05 06:28:53,2026-06-06 03:28:53,2026-06-07 06:28:53,activated,False,campaign_share_sheet
+REF_0658,USR_00822,USR_00620,WhatsApp,2026-03-12 08:25:58,2026-03-13 19:25:58,,registered,False,campaign_share_sheet
+REF_0659,USR_00518,,Twitter,2026-03-12 03:21:07,,,link_created,False,campaign_share_sheet
+REF_0660,USR_00174,USR_00078,WhatsApp,2026-01-19 07:31:57,2026-01-20 23:31:57,2026-01-21 04:31:57,activated,False,campaign_share_sheet
+REF_0661,USR_00903,USR_00146,DirectLink,2026-01-14 12:07:04,2026-01-16 00:07:04,2026-01-16 17:07:04,converted,True,campaign_share_sheet
+REF_0662,USR_00240,USR_00835,Telegram,2026-03-12 16:28:00,2026-03-14 07:28:00,2026-03-14 08:28:00,converted,True,campaign_share_sheet
+REF_0663,USR_00738,USR_00961,Twitter,2026-05-14 14:39:32,2026-05-17 10:39:32,2026-05-19 07:39:32,converted,True,campaign_share_sheet
+REF_0664,USR_00431,USR_00633,WhatsApp,2026-04-21 20:01:04,2026-04-23 23:01:04,2026-04-25 23:01:04,converted,True,campaign_share_sheet
+REF_0665,USR_00139,USR_00191,DirectLink,2026-10-02 22:53:03,2026-10-04 10:53:03,2026-10-05 16:53:03,converted,True,campaign_share_sheet
+REF_0666,USR_00873,USR_00752,Twitter,2026-02-23 09:39:21,2026-02-24 12:39:21,2026-02-24 17:39:21,activated,False,campaign_share_sheet
+REF_0667,USR_00580,USR_00043,Telegram,2026-08-04 18:38:48,2026-08-07 02:38:48,2026-08-07 06:38:48,converted,True,campaign_share_sheet
+REF_0668,USR_00342,,Telegram,2026-04-14 18:39:05,,,link_created,False,campaign_share_sheet
+REF_0669,USR_00019,USR_00320,Telegram,2026-03-23 20:33:29,2026-03-25 18:33:29,2026-03-27 01:33:29,converted,True,campaign_share_sheet
+REF_0670,USR_00082,USR_00742,Telegram,2026-08-12 23:50:21,2026-08-15 07:50:21,2026-08-17 03:50:21,activated,False,campaign_share_sheet
+REF_0671,USR_00526,USR_00165,WhatsApp,2026-03-19 15:46:52,2026-03-20 01:46:52,2026-03-20 18:46:52,converted,True,campaign_share_sheet
+REF_0672,USR_00162,USR_00028,WhatsApp,2026-02-05 12:56:14,2026-02-08 00:56:14,2026-02-09 18:56:14,converted,True,campaign_share_sheet
+REF_0673,USR_00616,USR_00259,WhatsApp,2026-10-28 08:28:22,2026-10-30 16:28:22,2026-11-01 11:28:22,converted,True,campaign_share_sheet
+REF_0674,USR_00421,USR_00925,Telegram,2026-05-02 07:49:54,2026-05-02 09:49:54,2026-05-03 17:49:54,converted,True,campaign_share_sheet
+REF_0675,USR_00064,USR_00250,Telegram,2026-03-16 10:22:57,2026-03-18 00:22:57,2026-03-18 12:22:57,converted,True,campaign_share_sheet
+REF_0676,USR_00511,USR_00247,DirectLink,2026-02-14 11:29:10,2026-02-15 21:29:10,,registered,False,campaign_share_sheet
+REF_0677,USR_00160,,Telegram,2026-04-26 14:13:33,,,link_created,False,campaign_share_sheet
+REF_0678,USR_00460,USR_00739,DirectLink,2026-09-17 05:00:09,2026-09-17 23:00:09,2026-09-18 08:00:09,converted,True,campaign_share_sheet
+REF_0679,USR_00930,USR_00492,WhatsApp,2026-02-19 15:19:34,2026-02-20 04:19:34,2026-02-21 07:19:34,activated,False,campaign_share_sheet
+REF_0680,USR_00812,USR_00031,WhatsApp,2026-04-23 22:18:26,2026-04-25 10:18:26,,registered,False,campaign_share_sheet
+REF_0681,USR_00951,USR_00791,DirectLink,2026-07-14 13:33:40,2026-07-16 12:33:40,,registered,False,campaign_share_sheet
+REF_0682,USR_00921,USR_00297,WhatsApp,2026-03-05 07:37:18,2026-03-06 12:37:18,2026-03-08 05:37:18,converted,True,campaign_share_sheet
+REF_0683,USR_00313,USR_00403,Twitter,2026-10-01 02:10:34,2026-10-03 09:10:34,,registered,False,campaign_share_sheet
+REF_0684,USR_00341,USR_00245,DirectLink,2026-06-08 13:05:17,2026-06-11 03:05:17,,registered,False,campaign_share_sheet
+REF_0685,USR_00088,USR_00099,WhatsApp,2026-07-14 10:01:08,2026-07-15 04:01:08,2026-07-17 03:01:08,converted,True,campaign_share_sheet
+REF_0686,USR_00051,USR_00390,WhatsApp,2026-05-30 18:38:28,2026-06-02 10:38:28,,registered,False,campaign_share_sheet
+REF_0687,USR_00394,USR_00799,Telegram,2026-09-05 06:04:57,2026-09-07 20:04:57,2026-09-09 12:04:57,converted,True,campaign_share_sheet
+REF_0688,USR_00304,USR_01000,Telegram,2026-08-21 02:12:06,2026-08-23 06:12:06,,registered,False,campaign_share_sheet
+REF_0689,USR_00509,USR_00419,Telegram,2026-05-19 06:03:12,2026-05-21 13:03:12,2026-05-22 21:03:12,activated,False,campaign_share_sheet
+REF_0690,USR_00418,USR_00902,DirectLink,2026-06-04 02:04:36,2026-06-05 11:04:36,2026-06-07 00:04:36,converted,True,campaign_share_sheet
+REF_0691,USR_00801,USR_00788,WhatsApp,2026-02-06 00:43:53,2026-02-08 18:43:53,2026-02-09 01:43:53,activated,False,campaign_share_sheet
+REF_0692,USR_00434,USR_00878,Twitter,2026-08-15 21:16:15,2026-08-17 09:16:15,2026-08-17 10:16:15,converted,True,campaign_share_sheet
+REF_0693,USR_00237,USR_00159,WhatsApp,2026-03-06 11:31:30,2026-03-07 08:31:30,2026-03-07 16:31:30,activated,False,campaign_share_sheet
+REF_0694,USR_00467,,WhatsApp,2026-09-30 11:50:50,,,link_created,False,campaign_share_sheet
+REF_0695,USR_00389,USR_00976,Twitter,2026-03-19 12:25:24,2026-03-21 01:25:24,,registered,False,campaign_share_sheet
+REF_0696,USR_00809,USR_00149,Twitter,2026-04-22 10:06:19,2026-04-23 02:06:19,,registered,False,campaign_share_sheet
+REF_0697,USR_00339,USR_00018,WhatsApp,2026-06-04 23:57:37,2026-06-06 12:57:37,2026-06-08 01:57:37,converted,True,campaign_share_sheet
+REF_0698,USR_00567,USR_00691,WhatsApp,2026-03-16 10:17:52,2026-03-16 16:17:52,2026-03-16 20:17:52,converted,True,campaign_share_sheet
+REF_0699,USR_00369,USR_00687,WhatsApp,2026-07-15 00:55:30,2026-07-18 00:55:30,2026-07-18 13:55:30,converted,True,campaign_share_sheet
+REF_0700,USR_00466,USR_00325,WhatsApp,2026-05-23 00:47:43,2026-05-25 04:47:43,2026-05-26 18:47:43,converted,True,campaign_share_sheet
+REF_0701,USR_00064,USR_00094,Telegram,2026-05-06 07:37:21,2026-05-09 04:37:21,2026-05-09 19:37:21,activated,False,campaign_share_sheet
+REF_0702,USR_00530,USR_00690,WhatsApp,2026-06-10 06:59:55,2026-06-12 17:59:55,2026-06-14 06:59:55,converted,True,campaign_share_sheet
+REF_0703,USR_00840,USR_00507,WhatsApp,2026-01-13 21:07:25,2026-01-16 18:07:25,,registered,False,campaign_share_sheet
+REF_0704,USR_00243,USR_00019,WhatsApp,2026-10-25 07:58:36,2026-10-28 05:58:36,2026-10-28 09:58:36,converted,True,campaign_share_sheet
+REF_0705,USR_00548,USR_00655,WhatsApp,2026-05-20 00:05:30,2026-05-21 19:05:30,2026-05-21 23:05:30,activated,False,campaign_share_sheet
+REF_0706,USR_00731,USR_00303,SMS,2026-03-24 04:51:27,2026-03-26 04:51:27,2026-03-26 12:51:27,converted,True,campaign_share_sheet
+REF_0707,USR_00234,USR_00044,SMS,2026-06-16 22:05:43,2026-06-17 15:05:43,2026-06-19 14:05:43,activated,False,campaign_share_sheet
+REF_0708,USR_00784,USR_00193,DirectLink,2026-08-24 23:22:16,2026-08-25 19:22:16,,registered,False,campaign_share_sheet
+REF_0709,USR_00770,USR_00620,Twitter,2026-01-17 22:15:07,2026-01-19 17:15:07,2026-01-21 07:15:07,converted,True,campaign_share_sheet
+REF_0710,USR_00355,USR_00886,SMS,2026-01-02 00:02:39,2026-01-02 13:02:39,2026-01-02 23:02:39,converted,True,campaign_share_sheet
+REF_0711,USR_00887,USR_00109,Twitter,2026-10-22 02:26:55,2026-10-24 01:26:55,2026-10-24 23:26:55,converted,True,campaign_share_sheet
+REF_0712,USR_00634,USR_00946,Telegram,2026-05-19 13:29:06,2026-05-21 13:29:06,2026-05-23 02:29:06,converted,True,campaign_share_sheet
+REF_0713,USR_00866,,DirectLink,2026-03-09 03:08:52,,,link_created,False,campaign_share_sheet
+REF_0714,USR_00078,USR_00124,Twitter,2026-08-24 23:07:35,2026-08-27 07:07:35,,registered,False,campaign_share_sheet
+REF_0715,USR_00432,,WhatsApp,2026-05-12 07:03:25,,,link_created,False,campaign_share_sheet
+REF_0716,USR_00899,USR_00053,WhatsApp,2026-03-26 03:57:31,2026-03-26 19:57:31,2026-03-28 06:57:31,converted,True,campaign_share_sheet
+REF_0717,USR_00095,USR_00858,Telegram,2026-02-12 09:34:57,2026-02-12 10:34:57,2026-02-13 00:34:57,converted,True,campaign_share_sheet
+REF_0718,USR_00145,USR_00279,WhatsApp,2026-08-01 19:07:43,2026-08-02 15:07:43,,registered,False,campaign_share_sheet
+REF_0719,USR_00776,USR_00222,WhatsApp,2026-05-18 22:06:06,2026-05-21 01:06:06,2026-05-21 06:06:06,converted,True,campaign_share_sheet
+REF_0720,USR_00981,USR_00926,WhatsApp,2026-04-22 10:31:13,2026-04-23 02:31:13,,registered,False,campaign_share_sheet
+REF_0721,USR_00519,USR_00079,WhatsApp,2026-08-14 01:44:51,2026-08-16 07:44:51,,registered,False,campaign_share_sheet
+REF_0722,USR_00373,USR_00961,WhatsApp,2026-01-29 10:49:05,2026-02-01 08:49:05,2026-02-01 16:49:05,converted,True,campaign_share_sheet
+REF_0723,USR_00978,USR_00962,WhatsApp,2026-01-25 13:03:10,2026-01-27 03:03:10,2026-01-28 06:03:10,activated,False,campaign_share_sheet
+REF_0724,USR_00611,USR_00420,SMS,2026-07-13 15:44:23,2026-07-14 06:44:23,2026-07-14 14:44:23,converted,True,campaign_share_sheet
+REF_0725,USR_00544,,Telegram,2026-04-02 02:06:20,,,link_created,False,campaign_share_sheet
+REF_0726,USR_00191,,WhatsApp,2026-02-17 10:11:37,,,link_created,False,campaign_share_sheet
+REF_0727,USR_00603,USR_00386,DirectLink,2026-10-24 17:02:11,2026-10-24 23:02:11,,registered,False,campaign_share_sheet
+REF_0728,USR_00968,USR_00698,WhatsApp,2026-03-21 06:23:25,2026-03-23 09:23:25,2026-03-24 15:23:25,activated,False,campaign_share_sheet
+REF_0729,USR_00252,USR_00120,WhatsApp,2026-02-04 04:16:56,2026-02-05 00:16:56,2026-02-05 08:16:56,converted,True,campaign_share_sheet
+REF_0730,USR_00227,,WhatsApp,2026-10-30 07:30:19,,,link_created,False,campaign_share_sheet
+REF_0731,USR_00810,,WhatsApp,2026-03-13 17:07:26,,,link_created,False,campaign_share_sheet
+REF_0732,USR_00286,USR_00420,Twitter,2026-10-03 02:58:59,2026-10-05 04:58:59,,registered,False,campaign_share_sheet
+REF_0733,USR_00144,USR_00226,WhatsApp,2026-08-23 19:43:43,2026-08-25 20:43:43,2026-08-26 08:43:43,converted,True,campaign_share_sheet
+REF_0734,USR_00087,USR_00308,WhatsApp,2026-05-10 22:49:50,2026-05-12 08:49:50,2026-05-12 09:49:50,converted,True,campaign_share_sheet
+REF_0735,USR_00854,USR_00940,WhatsApp,2026-05-30 03:21:55,2026-05-31 17:21:55,2026-06-01 20:21:55,activated,False,campaign_share_sheet
+REF_0736,USR_00816,USR_00011,Twitter,2026-02-13 19:50:46,2026-02-15 15:50:46,2026-02-17 13:50:46,converted,True,campaign_share_sheet
+REF_0737,USR_00611,USR_00314,Telegram,2026-04-17 21:16:15,2026-04-19 06:16:15,2026-04-20 11:16:15,converted,True,campaign_share_sheet
+REF_0738,USR_00413,,Telegram,2026-03-27 09:17:17,,,link_created,False,campaign_share_sheet
+REF_0739,USR_00469,USR_00329,WhatsApp,2026-01-24 22:41:04,2026-01-27 17:41:04,2026-01-28 00:41:04,activated,False,campaign_share_sheet
+REF_0740,USR_00226,USR_00265,WhatsApp,2026-09-24 02:53:01,2026-09-25 06:53:01,2026-09-27 03:53:01,converted,True,campaign_share_sheet
+REF_0741,USR_00274,USR_00307,DirectLink,2026-06-16 11:07:08,2026-06-16 20:07:08,2026-06-18 01:07:08,converted,True,campaign_share_sheet
+REF_0742,USR_00386,USR_00750,Telegram,2026-02-13 03:06:49,2026-02-13 04:06:49,2026-02-14 09:06:49,converted,True,campaign_share_sheet
+REF_0743,USR_00737,USR_00591,Telegram,2026-05-16 20:42:42,2026-05-17 15:42:42,2026-05-18 13:42:42,converted,True,campaign_share_sheet
+REF_0744,USR_00362,USR_00268,Telegram,2026-04-12 07:51:28,2026-04-15 00:51:28,2026-04-16 04:51:28,converted,True,campaign_share_sheet
+REF_0745,USR_00616,USR_00961,SMS,2026-10-17 17:36:24,2026-10-19 18:36:24,2026-10-20 00:36:24,activated,False,campaign_share_sheet
+REF_0746,USR_00158,USR_00760,DirectLink,2026-03-19 04:14:16,2026-03-21 00:14:16,2026-03-22 10:14:16,activated,False,campaign_share_sheet
+REF_0747,USR_00536,USR_00373,WhatsApp,2026-08-25 19:32:12,2026-08-25 20:32:12,,registered,False,campaign_share_sheet
+REF_0748,USR_00528,USR_00826,WhatsApp,2026-03-21 21:33:05,2026-03-22 05:33:05,,registered,False,campaign_share_sheet
+REF_0749,USR_00530,USR_00763,Telegram,2026-02-19 10:35:23,2026-02-22 06:35:23,2026-02-23 03:35:23,converted,True,campaign_share_sheet
+REF_0750,USR_00427,USR_00446,Telegram,2026-04-07 10:32:58,2026-04-09 19:32:58,2026-04-10 08:32:58,activated,False,campaign_share_sheet
+REF_0751,USR_00110,USR_00829,Twitter,2026-03-24 23:57:01,2026-03-27 03:57:01,2026-03-29 03:57:01,activated,False,campaign_share_sheet
+REF_0752,USR_00197,USR_00277,Telegram,2026-09-25 21:51:37,2026-09-27 00:51:37,2026-09-28 11:51:37,activated,False,campaign_share_sheet
+REF_0753,USR_00640,,WhatsApp,2026-06-28 05:07:50,,,link_created,False,campaign_share_sheet
+REF_0754,USR_00539,,WhatsApp,2026-01-09 23:22:55,,,link_created,False,campaign_share_sheet
+REF_0755,USR_00088,USR_00219,WhatsApp,2026-03-12 12:28:34,2026-03-14 10:28:34,2026-03-16 01:28:34,converted,True,campaign_share_sheet
+REF_0756,USR_00924,USR_00687,WhatsApp,2026-10-16 08:26:46,2026-10-17 14:26:46,2026-10-19 03:26:46,converted,True,campaign_share_sheet
+REF_0757,USR_00290,USR_00188,DirectLink,2026-03-04 14:20:37,2026-03-07 08:20:37,2026-03-09 08:20:37,converted,True,campaign_share_sheet
+REF_0758,USR_00863,USR_00588,DirectLink,2026-02-27 21:39:36,2026-03-02 15:39:36,2026-03-02 23:39:36,converted,True,campaign_share_sheet
+REF_0759,USR_00859,USR_00407,DirectLink,2026-05-17 09:35:37,2026-05-19 10:35:37,2026-05-19 11:35:37,converted,True,campaign_share_sheet
+REF_0760,USR_00326,USR_00731,WhatsApp,2026-01-21 21:04:49,2026-01-24 09:04:49,2026-01-25 04:04:49,activated,False,campaign_share_sheet
+REF_0761,USR_00338,USR_00021,Telegram,2026-06-28 18:19:20,2026-06-30 20:19:20,2026-07-01 14:19:20,converted,True,campaign_share_sheet
+REF_0762,USR_00599,USR_00372,WhatsApp,2026-01-31 13:11:03,2026-02-03 05:11:03,2026-02-04 15:11:03,converted,True,campaign_share_sheet
+REF_0763,USR_00176,USR_00889,DirectLink,2026-08-28 23:14:04,2026-08-29 19:14:04,2026-08-30 13:14:04,activated,False,campaign_share_sheet
+REF_0764,USR_00968,,WhatsApp,2026-10-17 17:52:11,,,link_created,False,campaign_share_sheet
+REF_0765,USR_00146,USR_00866,DirectLink,2026-04-01 00:25:40,2026-04-01 06:25:40,2026-04-02 08:25:40,converted,True,campaign_share_sheet
+REF_0766,USR_00604,USR_00848,WhatsApp,2026-07-20 19:09:56,2026-07-22 03:09:56,2026-07-23 17:09:56,activated,False,campaign_share_sheet
+REF_0767,USR_00897,USR_00914,Twitter,2026-03-28 13:41:01,2026-03-30 15:41:01,2026-03-30 17:41:01,converted,True,campaign_share_sheet
+REF_0768,USR_00433,USR_00466,WhatsApp,2026-09-29 19:23:59,2026-09-30 21:23:59,2026-10-02 08:23:59,activated,False,campaign_share_sheet
+REF_0769,USR_00789,,WhatsApp,2026-02-27 07:51:40,,,link_created,False,campaign_share_sheet
+REF_0770,USR_00123,USR_00328,WhatsApp,2026-08-21 20:22:00,2026-08-24 09:22:00,,registered,False,campaign_share_sheet
+REF_0771,USR_00784,USR_00731,Telegram,2026-10-17 08:14:09,2026-10-19 21:14:09,2026-10-20 15:14:09,converted,True,campaign_share_sheet
+REF_0772,USR_00391,USR_00463,Twitter,2026-04-10 14:05:12,2026-04-10 16:05:12,,registered,False,campaign_share_sheet
+REF_0773,USR_00962,USR_00722,Twitter,2026-03-16 14:32:28,2026-03-19 12:32:28,2026-03-20 15:32:28,converted,True,campaign_share_sheet
+REF_0774,USR_00556,USR_00203,WhatsApp,2026-05-30 17:28:05,2026-06-02 06:28:05,,registered,False,campaign_share_sheet
+REF_0775,USR_00662,USR_00570,DirectLink,2026-08-20 21:36:18,2026-08-21 12:36:18,2026-08-23 05:36:18,activated,False,campaign_share_sheet
+REF_0776,USR_00194,USR_00327,Telegram,2026-08-24 09:23:45,2026-08-26 03:23:45,2026-08-26 22:23:45,converted,True,campaign_share_sheet
+REF_0777,USR_00574,,Telegram,2026-02-20 11:17:30,,,link_created,False,campaign_share_sheet
+REF_0778,USR_00140,USR_00383,Twitter,2026-08-08 19:09:38,2026-08-09 06:09:38,2026-08-10 23:09:38,activated,False,campaign_share_sheet
+REF_0779,USR_00137,USR_00294,Twitter,2026-08-31 05:32:59,2026-08-31 20:32:59,2026-09-02 19:32:59,converted,True,campaign_share_sheet
+REF_0780,USR_00255,USR_00758,WhatsApp,2026-06-05 01:24:23,2026-06-07 11:24:23,,registered,False,campaign_share_sheet
+REF_0781,USR_00520,USR_00133,Telegram,2026-03-04 10:39:38,2026-03-07 08:39:38,2026-03-08 17:39:38,activated,False,campaign_share_sheet
+REF_0782,USR_00316,USR_00864,WhatsApp,2026-05-01 14:02:51,2026-05-02 05:02:51,,registered,False,campaign_share_sheet
+REF_0783,USR_00894,USR_00782,Telegram,2026-04-10 08:01:13,2026-04-10 09:01:13,2026-04-11 21:01:13,activated,False,campaign_share_sheet
+REF_0784,USR_00196,USR_00656,WhatsApp,2026-03-19 07:30:01,2026-03-21 08:30:01,2026-03-21 16:30:01,converted,True,campaign_share_sheet
+REF_0785,USR_00521,USR_00565,WhatsApp,2026-09-10 03:01:56,2026-09-13 01:01:56,,registered,False,campaign_share_sheet
+REF_0786,USR_00149,USR_00289,Twitter,2026-09-23 03:14:20,2026-09-24 13:14:20,2026-09-26 12:14:20,converted,True,campaign_share_sheet
+REF_0787,USR_00188,USR_00710,SMS,2026-06-21 17:19:45,2026-06-24 10:19:45,2026-06-24 12:19:45,converted,True,campaign_share_sheet
+REF_0788,USR_00295,USR_00100,WhatsApp,2026-05-21 05:34:55,2026-05-22 04:34:55,2026-05-23 15:34:55,activated,False,campaign_share_sheet
+REF_0789,USR_00970,,Telegram,2026-08-25 01:33:58,,,link_created,False,campaign_share_sheet
+REF_0790,USR_00129,,WhatsApp,2026-03-04 14:18:08,,,link_created,False,campaign_share_sheet
+REF_0791,USR_00926,USR_00339,SMS,2026-09-19 20:55:34,2026-09-21 12:55:34,2026-09-22 17:55:34,converted,True,campaign_share_sheet
+REF_0792,USR_00415,USR_00832,Twitter,2026-06-14 13:19:10,2026-06-15 19:19:10,2026-06-16 21:19:10,activated,False,campaign_share_sheet
+REF_0793,USR_00378,USR_00244,DirectLink,2026-02-18 05:02:25,2026-02-20 18:02:25,,registered,False,campaign_share_sheet
+REF_0794,USR_00026,,Telegram,2026-04-28 16:44:42,,,link_created,False,campaign_share_sheet
+REF_0795,USR_00795,USR_00502,WhatsApp,2026-03-05 16:56:13,2026-03-06 08:56:13,2026-03-08 02:56:13,converted,True,campaign_share_sheet
+REF_0796,USR_00770,USR_00417,WhatsApp,2026-03-05 08:03:01,2026-03-08 02:03:01,2026-03-08 14:03:01,converted,True,campaign_share_sheet
+REF_0797,USR_00124,USR_00009,SMS,2026-10-12 13:28:39,2026-10-13 18:28:39,2026-10-14 18:28:39,converted,True,campaign_share_sheet
+REF_0798,USR_00567,USR_00862,Twitter,2026-02-16 12:49:21,2026-02-18 21:49:21,2026-02-20 13:49:21,converted,True,campaign_share_sheet
+REF_0799,USR_00734,USR_00888,WhatsApp,2026-05-09 13:36:14,2026-05-11 21:36:14,2026-05-13 14:36:14,converted,True,campaign_share_sheet
+REF_0800,USR_00202,USR_00167,WhatsApp,2026-09-30 16:30:18,2026-10-02 02:30:18,2026-10-02 05:30:18,converted,True,campaign_share_sheet
+REF_0801,USR_00405,USR_00515,Telegram,2026-05-21 15:44:53,2026-05-22 14:44:53,2026-05-23 05:44:53,converted,True,campaign_share_sheet
+REF_0802,USR_00919,USR_00070,WhatsApp,2026-10-25 05:58:28,2026-10-27 23:58:28,,registered,False,campaign_share_sheet
+REF_0803,USR_00901,,SMS,2026-07-20 22:46:32,,,link_created,False,campaign_share_sheet
+REF_0804,USR_00867,USR_00187,WhatsApp,2026-05-20 01:33:15,2026-05-20 21:33:15,2026-05-22 13:33:15,converted,True,campaign_share_sheet
+REF_0805,USR_00485,USR_00202,Twitter,2026-07-07 10:08:50,2026-07-09 09:08:50,2026-07-11 02:08:50,activated,False,campaign_share_sheet
+REF_0806,USR_00650,USR_00619,WhatsApp,2026-08-03 03:04:47,2026-08-04 20:04:47,2026-08-05 17:04:47,converted,True,campaign_share_sheet
+REF_0807,USR_00943,USR_00942,WhatsApp,2026-04-21 15:18:59,2026-04-21 20:18:59,2026-04-22 17:18:59,converted,True,campaign_share_sheet
+REF_0808,USR_00327,,SMS,2026-10-10 23:59:59,,,link_created,False,campaign_share_sheet
+REF_0809,USR_00813,USR_00941,DirectLink,2026-06-25 14:35:13,2026-06-26 05:35:13,2026-06-26 17:35:13,converted,True,campaign_share_sheet
+REF_0810,USR_00665,USR_00985,Telegram,2026-07-15 17:19:37,2026-07-17 21:19:37,2026-07-19 02:19:37,converted,True,campaign_share_sheet
+REF_0811,USR_00268,USR_00753,Telegram,2026-04-07 11:54:05,2026-04-08 18:54:05,2026-04-10 00:54:05,activated,False,campaign_share_sheet
+REF_0812,USR_00034,USR_00242,Telegram,2026-09-03 09:30:22,2026-09-04 04:30:22,2026-09-04 18:30:22,activated,False,campaign_share_sheet
+REF_0813,USR_00058,USR_00487,Telegram,2026-01-02 08:52:03,2026-01-02 19:52:03,2026-01-04 10:52:03,activated,False,campaign_share_sheet
+REF_0814,USR_00962,USR_00392,WhatsApp,2026-10-13 08:24:44,2026-10-15 22:24:44,,registered,False,campaign_share_sheet
+REF_0815,USR_00889,USR_00660,WhatsApp,2026-06-17 01:29:12,2026-06-19 01:29:12,2026-06-20 19:29:12,activated,False,campaign_share_sheet
+REF_0816,USR_00930,USR_00457,Telegram,2026-02-16 08:53:21,2026-02-17 01:53:21,2026-02-17 06:53:21,converted,True,campaign_share_sheet
+REF_0817,USR_00980,USR_00706,Twitter,2026-05-16 02:58:34,2026-05-18 15:58:34,2026-05-19 09:58:34,activated,False,campaign_share_sheet
+REF_0818,USR_00892,USR_00230,Twitter,2026-08-05 12:18:59,2026-08-08 04:18:59,2026-08-08 23:18:59,converted,True,campaign_share_sheet
+REF_0819,USR_00915,USR_00715,WhatsApp,2026-07-10 20:00:04,2026-07-10 23:00:04,2026-07-11 13:00:04,converted,True,campaign_share_sheet
+REF_0820,USR_00457,USR_00961,WhatsApp,2026-06-02 16:38:21,2026-06-05 11:38:21,,registered,False,campaign_share_sheet
+REF_0821,USR_00472,USR_00143,Twitter,2026-09-17 08:34:57,2026-09-19 10:34:57,2026-09-21 03:34:57,converted,True,campaign_share_sheet
+REF_0822,USR_00564,USR_00761,DirectLink,2026-06-26 16:50:08,2026-06-29 03:50:08,2026-06-30 01:50:08,converted,True,campaign_share_sheet
+REF_0823,USR_00554,USR_00022,DirectLink,2026-04-11 03:17:01,2026-04-12 22:17:01,2026-04-13 13:17:01,converted,True,campaign_share_sheet
+REF_0824,USR_00856,USR_00609,Telegram,2026-01-26 22:09:16,2026-01-29 03:09:16,,registered,False,campaign_share_sheet
+REF_0825,USR_00366,USR_00207,WhatsApp,2026-08-01 02:54:23,2026-08-03 19:54:23,2026-08-05 04:54:23,converted,True,campaign_share_sheet
+REF_0826,USR_00710,USR_00139,Telegram,2026-07-02 04:07:09,2026-07-04 14:07:09,2026-07-05 01:07:09,converted,True,campaign_share_sheet
+REF_0827,USR_00511,,DirectLink,2026-04-16 21:19:34,,,link_created,False,campaign_share_sheet
+REF_0828,USR_00065,USR_00327,WhatsApp,2026-01-05 01:21:35,2026-01-05 13:21:35,,registered,False,campaign_share_sheet
+REF_0829,USR_00001,,WhatsApp,2026-10-24 03:31:27,,,link_created,False,campaign_share_sheet
+REF_0830,USR_00620,USR_00583,WhatsApp,2026-08-05 07:39:59,2026-08-07 17:39:59,2026-08-07 19:39:59,converted,True,campaign_share_sheet
+REF_0831,USR_00941,USR_00526,WhatsApp,2026-04-02 11:59:12,2026-04-02 23:59:12,2026-04-04 13:59:12,activated,False,campaign_share_sheet
+REF_0832,USR_00653,USR_00775,Twitter,2026-04-15 13:29:28,2026-04-17 22:29:28,2026-04-18 15:29:28,converted,True,campaign_share_sheet
+REF_0833,USR_00373,USR_00022,DirectLink,2026-01-06 20:41:30,2026-01-09 10:41:30,2026-01-09 14:41:30,converted,True,campaign_share_sheet
+REF_0834,USR_00472,USR_00289,SMS,2026-04-14 19:52:42,2026-04-15 02:52:42,2026-04-16 23:52:42,converted,True,campaign_share_sheet
+REF_0835,USR_00522,USR_00711,SMS,2026-09-14 07:43:57,2026-09-15 06:43:57,2026-09-17 02:43:57,converted,True,campaign_share_sheet
+REF_0836,USR_00354,USR_00462,Twitter,2026-03-30 20:03:22,2026-03-31 10:03:22,,registered,False,campaign_share_sheet
+REF_0837,USR_00109,,DirectLink,2026-05-07 03:53:37,,,link_created,False,campaign_share_sheet
+REF_0838,USR_00363,,WhatsApp,2026-09-01 02:15:53,,,link_created,False,campaign_share_sheet
+REF_0839,USR_00935,USR_00886,Telegram,2026-04-12 01:26:06,2026-04-12 19:26:06,,registered,False,campaign_share_sheet
+REF_0840,USR_00485,USR_00815,Twitter,2026-08-06 12:53:22,2026-08-07 12:53:22,2026-08-07 16:53:22,converted,True,campaign_share_sheet
+REF_0841,USR_00127,,Telegram,2026-05-21 13:12:55,,,link_created,False,campaign_share_sheet
+REF_0842,USR_00128,USR_00999,DirectLink,2026-03-30 23:23:28,2026-04-02 17:23:28,2026-04-04 11:23:28,converted,True,campaign_share_sheet
+REF_0843,USR_00999,USR_00212,Telegram,2026-03-30 16:38:23,2026-03-31 07:38:23,2026-03-31 12:38:23,activated,False,campaign_share_sheet
+REF_0844,USR_00859,USR_00357,Telegram,2026-06-18 09:32:27,2026-06-19 01:32:27,,registered,False,campaign_share_sheet
+REF_0845,USR_00388,USR_00846,WhatsApp,2026-02-19 11:36:11,2026-02-20 14:36:11,2026-02-21 07:36:11,converted,True,campaign_share_sheet
+REF_0846,USR_00362,USR_00913,WhatsApp,2026-10-27 02:13:11,2026-10-30 01:13:11,2026-10-31 14:13:11,converted,True,campaign_share_sheet
+REF_0847,USR_00466,USR_00529,Twitter,2026-01-12 07:43:44,2026-01-12 17:43:44,2026-01-14 17:43:44,converted,True,campaign_share_sheet
+REF_0848,USR_00961,USR_00858,Telegram,2026-03-26 05:14:08,2026-03-28 07:14:08,2026-03-29 08:14:08,converted,True,campaign_share_sheet
+REF_0849,USR_00906,USR_00978,WhatsApp,2026-07-01 13:44:52,2026-07-04 13:44:52,2026-07-04 17:44:52,activated,False,campaign_share_sheet
+REF_0850,USR_00425,USR_00060,WhatsApp,2026-10-24 04:11:40,2026-10-26 00:11:40,2026-10-27 22:11:40,activated,False,campaign_share_sheet
+REF_0851,USR_00981,USR_00322,Twitter,2026-01-24 06:26:00,2026-01-24 10:26:00,2026-01-25 09:26:00,activated,False,campaign_share_sheet
+REF_0852,USR_00105,USR_00197,Telegram,2026-02-04 05:14:15,2026-02-07 04:14:15,,registered,False,campaign_share_sheet
+REF_0853,USR_00818,USR_00783,WhatsApp,2026-04-17 23:48:12,2026-04-18 12:48:12,2026-04-20 07:48:12,converted,True,campaign_share_sheet
+REF_0854,USR_00326,,WhatsApp,2026-10-09 14:49:40,,,link_created,False,campaign_share_sheet
+REF_0855,USR_00503,USR_00226,WhatsApp,2026-08-29 21:36:30,2026-09-01 16:36:30,2026-09-03 05:36:30,activated,False,campaign_share_sheet
+REF_0856,USR_00993,USR_00354,Twitter,2026-10-21 02:24:27,2026-10-22 07:24:27,,registered,False,campaign_share_sheet
+REF_0857,USR_00114,USR_00163,WhatsApp,2026-06-26 12:23:41,2026-06-28 02:23:41,,registered,False,campaign_share_sheet
+REF_0858,USR_00478,USR_00746,WhatsApp,2026-02-12 09:12:11,2026-02-14 07:12:11,2026-02-14 18:12:11,activated,False,campaign_share_sheet
+REF_0859,USR_00172,USR_00089,Telegram,2026-04-23 17:50:41,2026-04-24 02:50:41,2026-04-24 18:50:41,converted,True,campaign_share_sheet
+REF_0860,USR_00291,USR_00610,WhatsApp,2026-01-31 15:36:36,2026-02-01 05:36:36,,registered,False,campaign_share_sheet
+REF_0861,USR_00154,USR_00626,Twitter,2026-06-11 02:17:13,2026-06-11 20:17:13,2026-06-12 21:17:13,converted,True,campaign_share_sheet
+REF_0862,USR_00409,USR_00362,Twitter,2026-07-29 12:46:10,2026-07-30 11:46:10,,registered,False,campaign_share_sheet
+REF_0863,USR_00521,USR_00950,Telegram,2026-04-04 03:42:09,2026-04-06 08:42:09,2026-04-07 17:42:09,converted,True,campaign_share_sheet
+REF_0864,USR_00604,USR_00803,Telegram,2026-05-06 18:32:19,2026-05-08 23:32:19,2026-05-10 15:32:19,converted,True,campaign_share_sheet
+REF_0865,USR_00299,USR_00563,Twitter,2026-05-07 05:37:16,2026-05-08 17:37:16,2026-05-09 22:37:16,converted,True,campaign_share_sheet
+REF_0866,USR_00058,USR_00983,DirectLink,2026-08-24 18:40:27,2026-08-25 05:40:27,2026-08-26 21:40:27,converted,True,campaign_share_sheet
+REF_0867,USR_00415,USR_00654,Telegram,2026-07-10 22:28:29,2026-07-13 05:28:29,2026-07-14 03:28:29,converted,True,campaign_share_sheet
+REF_0868,USR_00625,USR_00703,WhatsApp,2026-02-10 06:59:35,2026-02-11 14:59:35,,registered,False,campaign_share_sheet
+REF_0869,USR_00659,USR_00287,WhatsApp,2026-10-18 06:17:20,2026-10-19 15:17:20,,registered,False,campaign_share_sheet
+REF_0870,USR_00686,USR_00725,WhatsApp,2026-03-26 12:47:51,2026-03-29 11:47:51,2026-03-30 07:47:51,converted,True,campaign_share_sheet
+REF_0871,USR_00363,USR_00554,DirectLink,2026-06-26 12:54:42,2026-06-27 22:54:42,,registered,False,campaign_share_sheet
+REF_0872,USR_00281,USR_00069,Telegram,2026-08-20 11:56:30,2026-08-21 09:56:30,2026-08-22 00:56:30,converted,True,campaign_share_sheet
+REF_0873,USR_00065,,Twitter,2026-07-06 12:51:00,,,link_created,False,campaign_share_sheet
+REF_0874,USR_00523,USR_00878,DirectLink,2026-02-14 11:23:25,2026-02-16 03:23:25,2026-02-17 21:23:25,converted,True,campaign_share_sheet
+REF_0875,USR_00427,,DirectLink,2026-05-09 02:29:33,,,link_created,False,campaign_share_sheet
+REF_0876,USR_00037,,SMS,2026-09-11 19:59:41,,,link_created,False,campaign_share_sheet
+REF_0877,USR_00167,USR_00940,Telegram,2026-08-04 23:46:42,2026-08-05 09:46:42,2026-08-05 14:46:42,activated,False,campaign_share_sheet
+REF_0878,USR_00560,USR_00936,Telegram,2026-04-08 01:29:53,2026-04-08 10:29:53,,registered,False,campaign_share_sheet
+REF_0879,USR_00037,USR_01000,WhatsApp,2026-07-18 07:54:51,2026-07-21 05:54:51,,registered,False,campaign_share_sheet
+REF_0880,USR_00798,USR_00777,Telegram,2026-08-22 04:57:11,2026-08-23 09:57:11,2026-08-24 16:57:11,activated,False,campaign_share_sheet
+REF_0881,USR_00583,,WhatsApp,2026-01-22 08:52:06,,,link_created,False,campaign_share_sheet
+REF_0882,USR_00051,,Telegram,2026-04-21 15:19:36,,,link_created,False,campaign_share_sheet
+REF_0883,USR_00561,USR_00309,Telegram,2026-09-12 05:41:35,2026-09-13 14:41:35,2026-09-14 07:41:35,converted,True,campaign_share_sheet
+REF_0884,USR_00349,,Twitter,2026-03-31 10:34:08,,,link_created,False,campaign_share_sheet
+REF_0885,USR_00944,USR_00448,WhatsApp,2026-09-19 15:44:08,2026-09-22 04:44:08,2026-09-22 13:44:08,activated,False,campaign_share_sheet
+REF_0886,USR_00098,USR_00760,WhatsApp,2026-09-27 16:25:21,2026-09-29 11:25:21,2026-09-29 16:25:21,converted,True,campaign_share_sheet
+REF_0887,USR_00986,USR_00304,WhatsApp,2026-02-03 14:16:16,2026-02-05 13:16:16,2026-02-07 12:16:16,converted,True,campaign_share_sheet
+REF_0888,USR_00768,USR_00443,Twitter,2026-09-21 18:19:10,2026-09-23 16:19:10,2026-09-25 02:19:10,converted,True,campaign_share_sheet
+REF_0889,USR_00711,,WhatsApp,2026-02-21 13:23:56,,,link_created,False,campaign_share_sheet
+REF_0890,USR_00377,,WhatsApp,2026-05-19 12:41:54,,,link_created,False,campaign_share_sheet
+REF_0891,USR_00903,USR_00983,WhatsApp,2026-06-18 09:50:35,2026-06-18 11:50:35,,registered,False,campaign_share_sheet
+REF_0892,USR_00951,USR_00565,WhatsApp,2026-01-01 01:28:14,2026-01-03 23:28:14,,registered,False,campaign_share_sheet
+REF_0893,USR_00837,USR_00520,Telegram,2026-07-22 08:44:50,2026-07-24 14:44:50,2026-07-25 10:44:50,converted,True,campaign_share_sheet
+REF_0894,USR_00833,,WhatsApp,2026-02-11 11:33:08,,,link_created,False,campaign_share_sheet
+REF_0895,USR_00506,,WhatsApp,2026-06-22 22:28:59,,,link_created,False,campaign_share_sheet
+REF_0896,USR_00198,,WhatsApp,2026-07-16 22:15:36,,,link_created,False,campaign_share_sheet
+REF_0897,USR_00474,,SMS,2026-08-14 00:56:10,,,link_created,False,campaign_share_sheet
+REF_0898,USR_00766,,WhatsApp,2026-03-15 18:03:21,,,link_created,False,campaign_share_sheet
+REF_0899,USR_00846,USR_00391,Telegram,2026-04-19 07:54:41,2026-04-20 20:54:41,,registered,False,campaign_share_sheet
+REF_0900,USR_00592,USR_00051,WhatsApp,2026-08-05 22:00:16,2026-08-08 14:00:16,2026-08-09 03:00:16,activated,False,campaign_share_sheet

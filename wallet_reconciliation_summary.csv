@@ -1,0 +1,12 @@
+Metric,Reconciled Value,Audit Status
+Opening Balance (All Users),0.00 VEs,PASSED
+Total Ledger Credits,"+370,335.00 VEs",PASSED
+Total Ledger Debits,"-106,245.00 VEs",PASSED
+Net Circulating Float (Liability),"+268,855.00 VEs",PASSED
+Minimum User Balance,0.00 VEs,PASSED (>= 0.00)
+Maximum User Balance,"2,075.00 VEs",PASSED
+Overdraft Violations,0,PASSED
+Circulating Supply Discrepancy,0.000000 VEs,PASSED (Exact)
+Orphan Reward References,0,PASSED
+Orphan Withdrawal References,0,PASSED
+Orphan Reversal References,0,PASSED

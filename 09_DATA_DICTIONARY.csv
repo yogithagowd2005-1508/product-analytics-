@@ -1,0 +1,93 @@
+Entity,Field Name,Data Type,Definition,Example,Required,Allowed Values,Validation,Source,Sensitivity,Analytical Use,Status
+Users,user_id,String,Permanent unique identifier for registered user,USR_00001,Yes,USR_[0-9]{5},Regex match ^USR_[0-9]{5}$,Auth Service,Internal,Primary Key; cross-entity join key,Confirmed
+Users,registration_timestamp,Timestamp,UTC timestamp when user record was created,2026-03-15 10:22:15,Yes,Valid UTC,Past or present UTC timestamp,Auth DB,Internal,"Cohort grouping, user tenure, aging",Confirmed
+Users,registration_source,String,Acquisition channel through which user discovered app,referral,Yes,"organic, referral, paid_ad, partner_promo, influencer",Enum member,Attribution SDK,Internal,"Channel performance, CAC calculation",Confirmed
+Users,acquisition_campaign,String,Marketing campaign tag associated with acquisition,summer_boost,No,Free string,MaxLength 100,Attribution SDK,Internal,"Campaign ROI, ad spend efficiency",Proposed
+Users,device_platform,String,Operating system of registration device,Android,Yes,"Android, iOS, Web",Enum member,Client Telemetry,Internal,"Platform breakdown, cross-platform retention",Confirmed
+Users,country_code,String,ISO 3166-1 alpha-2 country of user registration,US,Yes,ISO alpha-2 codes,"Length 2, uppercase",IP Geolocation,Internal,"Geographic analysis, regional monetization",Confirmed
+Users,account_status,String,Current operational lifecycle standing of user account,active,Yes,"active, dormant, suspended, closed",Enum member,User Service,Internal,"Cohort filtering, churn analysis",Confirmed
+Users,is_onboarding_completed,Boolean,Indicates if user finished onboarding tutorial flow,TRUE,Yes,"TRUE, FALSE",Boolean,Client SDK,Internal,Activation conversion analysis,Confirmed
+Users,onboarding_completed_timestamp,Timestamp,UTC timestamp when onboarding was marked complete,2026-03-15 10:28:40,No,Valid UTC,Must be >= registration_timestamp,Client SDK,Internal,Time-to-activation duration metric,Proposed
+Users,last_login_timestamp,Timestamp,UTC timestamp of most recent successful session authentication,2026-10-30 18:45:10,Yes,Valid UTC,Must be >= registration_timestamp,Auth Service,Internal,"Recency calculation, active status thresholding",Confirmed
+Task_Activity,task_activity_id,String,Unique surrogate key for an individual task execution attempt,TSK_000100,Yes,TSK_[0-9]{6},Regex match ^TSK_[0-9]{6}$,Task Engine,Internal,Primary Key; joins to Rewards,Confirmed
+Task_Activity,task_id,String,Identifier of the catalog task template or campaign,TK_AD_101,Yes,Alphanumeric ID,Must exist in Tasks catalog,Task Catalog,Internal,"Task popularitity, task-level completion rate",Confirmed
+Task_Activity,task_type,String,Categorical classification of the earning mechanism,watch_ad,Yes,"watch_ad, survey, tap_earn, mining, offerwall, app_install",Enum member,Task Engine,Internal,Earning category segmentation,Confirmed
+Task_Activity,feature_category,String,High-level product classification,Earning,Yes,"Earning, Gamification, Daily",String enum,Product Schema,Internal,High-level product area reporting,Confirmed
+Task_Activity,user_id,String,Identifier of user performing the task,USR_00001,Yes,Valid user_id,Foreign key to Users.user_id,Session Context,Internal,"User task frequency, individual earning velocity",Confirmed
+Task_Activity,started_at,Timestamp,UTC timestamp when user launched the task,2026-04-01 12:00:00,Yes,Valid UTC,Valid datetime,Client / Server,Internal,"Start volume, diurnal usage patterns",Confirmed
+Task_Activity,completed_at,Timestamp,UTC timestamp when task reached terminal completion state,2026-04-01 12:00:30,No,Valid UTC,Must be >= started_at,Server Validation,Internal,"Task duration calculation, abandonment timing",Confirmed
+Task_Activity,status,String,Execution status of the task attempt,completed,Yes,"completed, failed, abandoned, pending_validation",Enum member,Task Engine,Internal,Task funnel completion rate,Confirmed
+Task_Activity,reward_amount,Numeric,Magnitude of reward units allocated for completion,15.00,Yes,Numeric >= 0,Unsigned decimal,Task Catalog,Internal,Reward liability estimation,Confirmed
+Task_Activity,reward_unit,String,Currency or gamification unit denomination,VEs,Yes,"VEs, Gems, XP",Enum member,Task Catalog,Internal,Unit-specific aggregation,Confirmed
+Task_Activity,validation_status,String,Result of anti-fraud and partner verification checks,validated,Yes,"validated, rejected, pending",Enum member,Validation Engine,Internal,"Fraud monitoring, partner postback verification rate",Confirmed
+Task_Activity,partner_provider,String,Name of third-party network delivering the task,GoogleAdMob,Yes,"GoogleAdMob, Pollfish, Tapjoy, InternalEngine",String enum,Task Engine,Internal,"Partner performance, network yield evaluation",Confirmed
+Task_Activity,error_reason,String,Diagnostic reason string for failed or abandoned tasks,tracking_timeout,No,Free string / enum,MaxLength 100,Task Engine,Internal,Error triage and UX remediation,Proposed
+Rewards,reward_id,String,Unique surrogate key for reward distribution event,RWD_00001,Yes,RWD_[0-9]{5},Regex match ^RWD_[0-9]{5}$,Rewards Engine,Internal,Primary Key; financial reconciliation,Confirmed
+Rewards,user_id,String,Recipient user identifier,USR_00001,Yes,Valid user_id,Foreign key to Users.user_id,Rewards Engine,Internal,Per-user reward accumulation,Confirmed
+Rewards,task_activity_id,String,Reference to upstream task execution (null for streaks),TSK_000100,No,Valid task_activity_id,Foreign key to Task_Activity,Rewards Engine,Internal,Reward attribution to specific task,Confirmed
+Rewards,reward_type,String,Business origin of reward issuance,task_completion,Yes,"task_completion, daily_login, streak_bonus, referral_bonus, spin_wheel, badge_milestone",Enum member,Rewards Engine,Internal,Reward category distribution,Confirmed
+Rewards,amount,Numeric,Quantity of reward credited,25.00,Yes,Numeric > 0,Strictly positive numeric,Rewards Engine,Internal,Reward expense calculation,Confirmed
+Rewards,reward_unit,String,Denomination currency of reward,VEs,Yes,"VEs, Gems, XP",Enum member,Rewards Engine,Internal,Multi-currency ledger segmentation,Confirmed
+Rewards,status,String,Current accounting state of reward,credited,Yes,"credited, pending, reversed, corrected",Enum member,Ledger Service,Internal,Liability status tracking,Confirmed
+Rewards,credited_at,Timestamp,UTC timestamp when reward entered ledger,2026-04-01 12:00:32,Yes,Valid UTC,Valid datetime,Ledger Service,Internal,Daily reward issuance volume,Confirmed
+Rewards,ledger_status,String,Posting status in core financial ledger,posted,Yes,"posted, pending, voided",Enum member,Ledger Service,Internal,Accounting reconciliation,Confirmed
+Rewards,correction_reference_id,String,Pointer to original reward if reversed or adjusted,RWD_00005,No,Valid reward_id,Self-referencing foreign key,Ledger Service,Internal,Reversal audit trail,Proposed
+Wallet,transaction_id,String,Unique surrogate identifier for wallet journal line,TXN_000001,Yes,TXN_[0-9]{6},Regex match ^TXN_[0-9]{6}$,Ledger Core,Internal,Primary Key; financial audit,Confirmed
+Wallet,user_id,String,Owner of the affected wallet balance,USR_00001,Yes,Valid user_id,Foreign key to Users.user_id,Ledger Core,Internal,User balance ledger aggregation,Confirmed
+Wallet,timestamp,Timestamp,UTC timestamp of transaction entry,2026-04-01 12:00:32,Yes,Valid UTC,Valid datetime,Ledger Core,Internal,"Transaction velocity, temporal audit",Confirmed
+Wallet,transaction_type,String,Economic category of transaction,reward_credit,Yes,"reward_credit, withdrawal_debit, token_exchange, admin_adjustment, withdrawal_refund",Enum member,Ledger Core,Internal,Cash flow segmentation,Confirmed
+Wallet,amount,Numeric,Signed numeric change to user balance,25.00,Yes,Signed numeric,"Numeric value (+ for credit, - for debit)",Ledger Core,Internal,Net balance calculation,Confirmed
+Wallet,unit,String,Currency unit of balance change,VEs,Yes,"VEs, Gems, Tokens",Enum member,Ledger Core,Internal,Currency-specific balances,Confirmed
+Wallet,status,String,State of the journal transaction,completed,Yes,"completed, pending, reversed, failed",Enum member,Ledger Core,Internal,Clearing and settlement analysis,Confirmed
+Wallet,source,String,Subsystem initiating the transaction,reward_engine,Yes,"reward_engine, withdrawal_engine, exchange_service, manual_ops",Enum member,Ledger Core,Internal,Subsystem volume attribution,Confirmed
+Wallet,reference_id,String,External identifier linking to upstream record,RWD_00001,No,Alphanumeric ID,"Pointers to RWD, WDR, or EXC IDs",Ledger Core,Internal,"Auditability, end-to-end traceability",Confirmed
+Wallet,reversal_relationship_id,String,Pointer to original transaction if this row is a reversal,TXN_000050,No,Valid transaction_id,Self-referencing foreign key,Ledger Core,Internal,Reversal linkage,Proposed
+Withdrawals,withdrawal_id,String,Unique surrogate key for withdrawal request,WDR_0001,Yes,WDR_[0-9]{4},Regex match ^WDR_[0-9]{4}$,Withdrawal Engine,Internal,Primary Key; payment tracking,Confirmed
+Withdrawals,user_id,String,User requesting payout,USR_00001,Yes,Valid user_id,Foreign key to Users.user_id,Withdrawal Engine,Internal,Per-user cash-out behavior,Confirmed
+Withdrawals,requested_amount,Numeric,Quantity of units requested for redemption,1000.00,Yes,Numeric >= 500,Must exceed minimum threshold,Withdrawal Engine,Internal,Redemption demand volume,Confirmed
+Withdrawals,currency_unit,String,Currency unit debited for payout,VEs,Yes,"VEs, Tokens",Enum member,Withdrawal Engine,Internal,Payout unit breakdown,Confirmed
+Withdrawals,withdrawal_method,String,Disbursement rail selected by user,PayPal,Yes,"PayPal, Crypto_USDT, GiftCard_Amazon, BankTransfer",Enum member,Withdrawal Engine,Internal,Payment channel popularity,Confirmed
+Withdrawals,requested_timestamp,Timestamp,UTC timestamp when user submitted cash-out form,2026-05-10 14:00:00,Yes,Valid UTC,Valid datetime,Withdrawal Engine,Internal,"Backlog queue aging, SLA clock start",Confirmed
+Withdrawals,processing_timestamp,Timestamp,UTC timestamp when payout passed review and reached gateway,2026-05-10 18:30:00,No,Valid UTC,Must be >= requested_timestamp,Gateway Connector,Internal,Internal review latency,Confirmed
+Withdrawals,final_timestamp,Timestamp,UTC timestamp when terminal settlement or rejection occurred,2026-05-11 10:15:00,No,Valid UTC,Must be >= processing_timestamp,Gateway Webhook,Internal,End-to-end turnaround time (TAT),Confirmed
+Withdrawals,status,String,Current operational status of withdrawal,completed,Yes,"requested, processing, completed, rejected, reversed",Enum member,Withdrawal Engine,Internal,Withdrawal funnel completion rate,Confirmed
+Withdrawals,rejection_reason_category,String,Categorized rationale if payout declined,KYC_incomplete,No,"KYC_incomplete, minimum_threshold_not_met, suspected_fraud, third_party_provider_error, account_mismatch",Enum member,Risk Engine,Internal,Root-cause analysis of payment failures,Confirmed
+Withdrawals,payout_reference_hash,String,External payment provider settlement transaction hash,HASH_9B8C123F,No,Alphanumeric hash,Hex string length >= 8,Payment Provider,Restricted,Financial settlement verification,Confirmed
+Withdrawals,fee_amount,Numeric,Processing fee deducted from gross payout,20.00,Yes,Numeric >= 0,Unsigned decimal,Withdrawal Engine,Internal,Fee revenue calculation,Confirmed
+Referrals,referral_id,String,Unique surrogate key for referral tracking lifecycle,REF_0001,Yes,REF_[0-9]{4},Regex match ^REF_[0-9]{4}$,Referral Engine,Internal,Primary Key; viral funnel analysis,Confirmed
+Referrals,referring_user_id,String,User who shared the invite link,USR_00001,Yes,Valid user_id,Foreign key to Users.user_id,Client DeepLink,Internal,"Referrer viral productivity, K-factor",Confirmed
+Referrals,referred_user_id,String,New user registered via referral link,USR_00025,No,Valid user_id,Foreign key to Users.user_id,Auth Service,Internal,Referee retention tracking,Confirmed
+Referrals,invite_channel,String,Social sharing app or medium used,WhatsApp,Yes,"WhatsApp, Telegram, Twitter, DirectLink, SMS",Enum member,Client Share Sheet,Internal,Channel-level viral conversion efficiency,Confirmed
+Referrals,creation_timestamp,Timestamp,UTC timestamp when invite link/token was generated,2026-02-10 09:00:00,Yes,Valid UTC,Valid datetime,Client SDK,Internal,"Share frequency, viral intent volume",Confirmed
+Referrals,registration_timestamp,Timestamp,UTC timestamp when referee completed account creation,2026-02-10 14:30:00,No,Valid UTC,Must be >= creation_timestamp,Auth Service,Internal,Invite-to-signup latency,Confirmed
+Referrals,activation_timestamp,Timestamp,UTC timestamp when referee completed first valid earning task,2026-02-11 11:20:00,No,Valid UTC,Must be >= registration_timestamp,Task Engine,Internal,Signup-to-activation velocity,Confirmed
+Referrals,status,String,Lifecycle milestone reached in referral funnel,converted,Yes,"link_created, registered, activated, converted",Enum member,Referral Engine,Internal,Referral funnel stage drop-off,Confirmed
+Referrals,reward_credited_to_referrer,Boolean,Indicates whether referral bounty was posted to referrer,TRUE,Yes,"TRUE, FALSE",Boolean,Rewards Engine,Internal,Referral reward cost accounting,Confirmed
+Referrals,attribution_source,String,Attribution technical mechanism,campaign_share_sheet,Yes,"campaign_share_sheet, web_landing_cookie, manual_code",String enum,Attribution SDK,Internal,Attribution reliability audit,Proposed
+Feature_Events,event_id,String,Unique surrogate key for telemetry event instance,EVT_000001,Yes,EVT_[0-9]{6},Regex match ^EVT_[0-9]{6}$,Event Gateway,Internal,Primary Key; event deduplication,Confirmed
+Feature_Events,user_id,String,User who generated the event,USR_00001,Yes,Valid user_id,Foreign key to Users.user_id,Session Context,Internal,User-level behavioral modeling,Confirmed
+Feature_Events,session_id,String,Identifier of user session during event occurrence,SES_123456,Yes,SES_[0-9]{6},Alphanumeric session token,Client SDK,Internal,"Session boundary analysis, events per session",Confirmed
+Feature_Events,event_name,String,Standardized domain_object_action name of event,daily_reward_claimed,Yes,Standardized event taxonomy,Snake_case string,Telemetry SDK,Internal,"Event stream filtering, feature usage volume",Confirmed
+Feature_Events,feature_domain,String,Product subsystem owning the event,engagement,Yes,"engagement, gamification, support, navigation",Enum member,Event Schema,Internal,Subsystem telemetry volume breakdown,Confirmed
+Feature_Events,timestamp,Timestamp,UTC timestamp when event occurred on client or server,2026-05-12 16:20:00,Yes,Valid UTC,Valid datetime,Client / Server,Internal,Time-series activity aggregation,Confirmed
+Feature_Events,device_platform,String,Client operating platform emitting telemetry,Android,Yes,"Android, iOS, Web",Enum member,Client SDK,Internal,Platform telemetry segmentation,Confirmed
+Feature_Events,status,String,Result of client action triggering event,success,Yes,"success, failed, pending",Enum member,Client SDK,Internal,Feature error rate tracking,Confirmed
+Missions,mission_id,String,Unique surrogate key for gamification quest template,MSN_101,Yes,MSN_[0-9]{3},Regex match ^MSN_[0-9]{3}$,Mission Service,Internal,Primary Key; quest catalog,Proposed
+Missions,mission_name,String,User-facing title of mission,Weekend Warrior,Yes,Free string,MaxLength 100,Mission Service,Public,Display in client UI,Proposed
+Missions,mission_type,String,Recurrence window of mission,weekly,Yes,"daily, weekly, special_event",Enum member,Mission Service,Internal,Mission cadence categorization,Proposed
+Missions,required_task_type,String,Target task type required for completion,watch_ad,Yes,"watch_ad, survey, tap_earn, any",Enum member,Mission Service,Internal,Criteria validation logic,Proposed
+Missions,required_count,Integer,Number of task completions required,5,Yes,Integer > 0,Positive integer,Mission Service,Internal,Threshold evaluation,Proposed
+Missions,reward_bonus_amount,Numeric,Additional bonus VEs/XP granted upon completion,100.00,Yes,Numeric >= 0,Unsigned decimal,Mission Service,Internal,Gamification expense estimation,Proposed
+Missions,is_active,Boolean,Indicates if mission is currently live in catalog,TRUE,Yes,"TRUE, FALSE",Boolean,Mission Service,Internal,Active catalog filtering,Proposed
+Badges,badge_id,String,Unique identifier for collectible badge,BDG_EARN_01,Yes,BDG_[A-Z_0-9]+,Regex match,Badge Service,Internal,Primary Key; achievement catalog,Proposed
+Badges,badge_title,String,User-facing title of the badge,Ad Enthusiast,Yes,Free string,MaxLength 100,Badge Service,Public,UI display,Proposed
+Badges,badge_category,String,Domain of achievement represented,earning_volume,Yes,"earning_volume, streak_mastery, viral_champion",Enum member,Badge Service,Internal,Achievement segmentation,Proposed
+Badges,xp_reward_amount,Integer,XP granted when badge is unlocked,250,Yes,Integer >= 0,Positive integer,Badge Service,Internal,Gamification balance calculation,Proposed
+Badges,icon_asset_uri,String,URL/path to visual artwork asset,https://cdn.veloop.io/badges/earn_01.png,Yes,Valid URI,URI format,CDN,Public,UI image rendering,Proposed
+Sessions,session_id,String,Unique surrogate key for authenticated user session,SES_123456,Yes,SES_[0-9]{6},Alphanumeric token,Auth Service,Internal,Primary Key; joins to Feature_Events,Proposed
+Sessions,user_id,String,User associated with the session,USR_00001,Yes,Valid user_id,Foreign key to Users.user_id,Auth Service,Internal,Session per user aggregation,Proposed
+Sessions,session_start_timestamp,Timestamp,UTC timestamp when app session began,2026-05-12 16:00:00,Yes,Valid UTC,Valid datetime,Client SDK,Internal,"Session frequency, DAU derivation",Proposed
+Sessions,session_end_timestamp,Timestamp,UTC timestamp when app session closed or timed out,2026-05-12 16:25:30,No,Valid UTC,Must be >= start_timestamp,Client SDK,Internal,Session duration calculation,Proposed
+Sessions,session_duration_seconds,Integer,Total length of session in elapsed seconds,1530,No,Integer >= 0,Non-negative integer,Computed,Internal,Average session length KPI,Proposed
+Sessions,events_count,Integer,Total number of telemetry events emitted in session,14,Yes,Integer >= 1,Positive integer,Computed,Internal,Session depth and engagement intensity,Proposed
+Sessions,ip_asn,String,Autonomous system network number of user connection,AS15169,No,AS[0-9]+,ASN regex,Gateway Proxy,Restricted,Bot and proxy detection,Proposed

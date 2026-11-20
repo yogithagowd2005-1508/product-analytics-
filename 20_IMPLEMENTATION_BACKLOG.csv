@@ -1,0 +1,13 @@
+Priority,Requirement,Reason,Dependency,Owner,Stage
+Critical,Implement Stable Surrogate User ID across all microservices and telemetry,"Required for cross-event analysis, user identity resolution, and referential integrity",Auth Service Architecture,Core Backend Team,Pre-launch
+Critical,Deploy Double-Entry Ledger Transaction ID with Idempotency Constraints,"Guarantees transactional integrity, eliminates balance discrepancies, and prevents duplicate credits",Core Ledger Architecture,Ledger / Backend Engineering,Pre-launch
+Critical,Standardize Event Tracking SDK with Mandatory Event ID and ISO Timestamps,"Eliminates malformed dates, missing timestamps, and rapid client duplicate bursts",Mobile Telemetry SDK,Mobile App / Data Platform,Pre-launch
+Critical,Build Withdrawal State Machine Enforcing Strict State Transitions,Prevents impossible transitions (completed prior to requested) and ensures escrow synchronization,Withdrawal Engine,Payment Engineering,Pre-launch
+High,Implement Ingestion Gateway Data Quality Filter & Quarantine DLQ,"Intercepts invalid statuses, non-numeric values, and un-trimmed strings before database landing",API Gateway / Kafka Broker,Data Engineering,Pre-launch
+High,Instrument Server-to-Server Affiliate Webhook Ingestion Pipeline,Captures partner postbacks for surveys and offerwalls with validation verification,Partner Ad Integrations,Ad Operations / Backend,Pre-launch
+High,Establish Referral Attribution & Anti-Fraud Conversion Engine,Enforces distinction between registration and activation; prevents self-referral rings,Deep-Link Routing SDK,Growth Engineering,Pre-launch
+High,Build Automated dbt Transformation Pipeline for Medallion Layers (Bronze/Silver/Gold),"Automates cleansing, case normalization, and aggregate KPI modeling for BI reporting",Analytical Data Warehouse,Analytics Engineering,Pre-launch
+Medium,"Deploy Core Operational BI Dashboards (Executive, Earning, Withdrawals)",Provides executive leadership and product managers with real-time operational health visibility,Gold Layer Data Models,BI / Analytics Team,Post-launch
+Medium,Implement Hardware Device Fingerprinting & Proxy Detection Telemetry,Required for advanced multi-account collusion detection and sybil attack mitigation,Security SDK Integration,Fraud / Security Team,Post-launch
+Medium,Build Automated Data Quality Alerting Bot on Metric Anomalies,Notifies on-call engineers when event drop-offs or failure rates exceed standard deviations,Observability Infrastructure,Data Platform Team,Post-launch
+Low,Develop Machine Learning Predictive Churn and Lifetime Value (LTV) Models,Optimizes user acquisition bidding and personalized win-back notifications,6 Months of Production Data,Data Science Team,Post-launch

@@ -1,0 +1,16 @@
+Field,Type,Required?,Purpose,Source,Validation,Status
+user_id,String (UUID / USR_XXXXX),Yes,Permanent unique surrogate identifier for user entity,Auth Service,^USR_[0-9]{5}$ or RFC 4122 UUID,Confirmed
+registration_timestamp,Timestamp (ISO 8601 UTC),Yes,"Cohort definition, tenure calculation, maturity analysis",Auth Service DB,Valid UTC timestamp <= CURRENT_TIMESTAMP,Confirmed
+registration_source,String (Enum),Yes,Acquisition channel performance and CAC attribution,Client DeepLink / Attribution SDK,"IN (organic, referral, paid_ad, partner_promo, influencer)",Proposed
+acquisition_campaign,String,No,Campaign-specific ROI and CPA evaluation,Branch / AppsFlyer attribution token,"MaxLength 100, sanitized alphanumeric",Proposed
+device_platform,String (Enum),Yes,Cross-platform UX segmentation and telemetry routing,Client OS Telemetry,"IN (Android, iOS, Web)",Confirmed
+device_os_version,String,Yes,"Bug triage, SDK deprecation tracking",Client OS Telemetry,Semantic version pattern (e.g. 14.2.1),Proposed
+app_version,String,Yes,"Release tracking, feature rollout cohorting",App Manifest / Build Info,SemVer string (e.g. v2.4.1),Proposed
+country_code,String (ISO 3166-1 alpha-2),Yes,"Geographic market segmentation, ad monetization tiers",Client IP Geolocation / Device Locale,"Length 2, uppercase alpha",Confirmed
+account_status,String (Enum),Yes,"User lifecycle state tracking, active cohort filtering",User Profile Service,"IN (active, dormant, suspended, closed)",Confirmed
+is_onboarding_completed,Boolean,Yes,Activation milestone tracking,Onboarding Service,Boolean (TRUE/FALSE),Confirmed
+onboarding_completed_timestamp,Timestamp (ISO 8601 UTC),No,Time-to-activation duration measurement,Onboarding Service,Valid UTC timestamp >= registration_timestamp,Proposed
+last_login_timestamp,Timestamp (ISO 8601 UTC),Yes,"Recency scoring, dormancy classification (7d/30d)",Auth Session Manager,Valid UTC timestamp >= registration_timestamp,Confirmed
+current_streak_count,Integer,Yes,Daily engagement habit tracking,Streak Service,Integer >= 0,Proposed
+lifetime_xp,Integer,Yes,Gamification progression and level tiering,Gamification Service,Integer >= 0,Proposed
+kyc_status,String (Enum),Yes,Withdrawal eligibility compliance tracking,Compliance Service,"IN (none, pending, verified, rejected)",Proposed

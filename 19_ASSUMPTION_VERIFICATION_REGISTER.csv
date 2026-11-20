@@ -1,0 +1,11 @@
+ID,Unknown,Why It Matters,Source Checked,Risk,Verification Owner,Status
+A001,Does the backend currently emit distinct task_completed events separate from ledger rewards?,Critical for distinguishing task execution success from monetary settlement,Product Docs / Simulated Schema,High,Backend Engineering,To Be Verified
+A002,What is the precise conversion peg rate between VEs and cash withdrawal amounts?,"Required for financial liability calculations, unit economics, and withdrawal KPIs",Product Documentation,Critical,Product Economics / Finance,To Be Verified
+A003,Are session IDs generated and maintained persistently across mobile app restarts?,"Essential for session duration, bounce rate, and session-level analytics",Client Mobile Telemetry,High,Mobile SDK Team,To Be Verified
+A004,Do third-party ad networks (AdMob/IronSource) send client or server postbacks for ad views?,Dictates whether ad view validation occurs on client device or backend webhook,Partner Integration Docs,Critical,Ad Operations / Engineering,To Be Verified
+A005,Are duplicate withdrawal requests debited immediately or held in escrow?,Fundamental to double-entry ledger design and preventing race-condition overdrafts,Wallet Architecture Spec,Critical,Ledger Core Team,Confirmed
+A006,What constitutes the exact qualifying threshold for referral activation?,Prevents gaming of referral bounties by requiring meaningful user activity,Growth Strategy Brief,High,Growth Product Manager,Proposed
+A007,Are streak freeze items purchasable with Gems or earned strictly via daily activity?,Affects sink mechanics in tokenomic modeling,Game Economy Design,Medium,Game Designer,Proposed
+A008,Is KYC mandatory for all withdrawal amounts or only transactions above a dollar threshold?,Determines withdrawal drop-off rate and compliance pipeline volume,Compliance Policy,High,Legal & Compliance Lead,To Be Verified
+A009,Does the client mobile SDK queue telemetry events offline and flush upon reconnection?,"If offline queuing exists, event timestamps may significantly lag server ingestion time",Mobile Architecture,High,Mobile Lead,To Be Verified
+A010,What is the server-side deduplication window for client-emitted event IDs?,Ensures rapid double-taps do not cause duplicate reward disbursements,API Gateway Spec,Critical,Backend Architecture,Proposed
