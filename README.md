@@ -126,7 +126,7 @@ Over a structured 25-day product analytics methodology, this project establishes
 4. **Empirical Relationship & Referential Testing (9 FK Paths)**:
    - Validated all **9 foreign-key paths** across 30,150 total records (34,597 referential checks). **100% clean referential integrity** (0 orphans) achieved across all production-simulated tables.
    - Negative control audit on `Messy_Data` successfully detected and quarantined **45 orphan rows** across 10 distinct non-existent user IDs.
-   - Comprehensive documentation in [FOREIGN_KEY_VALIDATION_REPORT.md](docs/FOREIGN_KEY_VALIDATION_REPORT.md).
+   - Comprehensive documentation in https://github.com/yogithagowd2005-1508/product-analytics-/blob/main/FOREIGN_KEY_VALIDATION_REPORT.md.
 5. **Wallet Ledger & Withdrawal Reconciliation Engine (Zero Overdrafts & Positive Float)**:
    - Re-engineered the synthetic balance generator to strictly bound user withdrawals and debits to available earned balances.
    - User Opening Balance: `0.00 VEs` across all 1,000 accounts; Minimum User Balance: `0.00 VEs` (zero negative balances).
@@ -134,24 +134,24 @@ Over a structured 25-day product analytics methodology, this project establishes
    - Sum of closing balances matches net completed ledger entries with `0.000000 VEs` parity discrepancy.
    - All 6 Invariant Tests `[WLT-TC01]` through `[WLT-TC06]` in `scripts/validate_wallet_reconciliation.py` **PASSED**.
 6. **Rigorous KPI Verification (All 35 KPIs Audited)**:
-   - Full mathematical and empirical audit across 7 business domains documented in [KPI_CATALOGUE.md](docs/11_KPI_CATALOGUE.md) and [kpi_verification_report.csv](data/kpi_verification_report.csv).
+   - Full mathematical and empirical audit across 7 business domains documented in https://github.com/yogithagowd2005-1508/product-analytics-/blob/main/11_KPI_CATALOGUE.md and https://github.com/yogithagowd2005-1508/product-analytics-/blob/main/11_KPI_CATALOGUE.csv.
    - **24 KPIs calculated directly** from simulated tables (Task Completion: `72.6%`, Rewards Issued: `698,350 VEs`, Circulating Supply: `+268,855.00 VEs`, Payout SLA: `38.1 Hours`, K-Factor: `0.56` / `0.37`).
    - **11 KPIs verified as sound specifications**, with upstream tracking dependencies identified for live deployment (Net Ad Revenue ARPU requires ad network revenue API; Multi-Account Collusion requires hardware device fingerprinting).
 7. **Live Dashboard Suite & Visual Evidence**:
-   - Complete interactive multi-tab BI suite available at [dashboards/index.html](dashboards/index.html) (mirrored to root `index.html`).
-   - 7 high-resolution PNG screenshot renders available in [dashboards/screenshots/](dashboards/screenshots/).
+   - Complete interactive multi-tab BI suite available at https://github.com/yogithagowd2005-1508/product-analytics-/blob/main/index.html (mirrored to root `index.html`).
+   - 7 high-resolution PNG screenshot renders available in Production BI Dashboard suite & Visual Gallery.
 8. **Practical Platform Integration & Realistic Cost Breakdown**:
-   - Complete technical engineering guide provided in [PRACTICAL_INTEGRATION_PLAYBOOK.md](docs/PRACTICAL_INTEGRATION_PLAYBOOK.md), including Android Kotlin, iOS Swift, and TypeScript SDK wrappers, FastAPI Ingestion Gateway with Redis idempotency, dbt Core Medallion staging models, and Metabase BI integration.
+   - Complete technical engineering guide provided in https://github.com/yogithagowd2005-1508/product-analytics-/blob/main/PRACTICAL_INTEGRATION_PLAYBOOK.md, including Android Kotlin, iOS Swift, and TypeScript SDK wrappers, FastAPI Ingestion Gateway with Redis idempotency, dbt Core Medallion staging models, and Metabase BI integration.
    - Realistic tiered infrastructure cost model: **\$115/month** (MVP / Dev, <50k DAU) $\rightarrow$ **\$385/month** (Growth, 50k–250k DAU) $\rightarrow$ **\$1,150/month** (Scale, 250k–1M+ DAU).
 
 ---
 
 ## 📊 Production BI Dashboard Suite & Visual Gallery
 
-The analytical blueprint includes seven fully designed, interactive BI dashboards implemented in [dashboards/index.html](dashboards/index.html) and compiled into high-resolution visual evidence artifacts below:
+The analytical blueprint includes seven fully designed, interactive BI dashboards implemented in https://github.com/yogithagowd2005-1508/product-analytics-/blob/main/index.html and compiled into high-resolution visual evidence artifacts below:
 
 ### 1. Executive Overview Dashboard
-![Executive Overview Dashboard](dashboards/screenshots/dashboard_1_executive_overview.png)
+https://github.com/yogithagowd2005-1508/product-analytics-/blob/main/dashboard_1_executive_overview.png
 * **Target Audience**: C-Suite, Founders, Operations Lead
 * **Key Metrics**: DAU (`1,420` cumulative, ~37 unique/day), Task Completion (`72.6%` - 4,357 of 6,000 tasks), Completed Payout (`73.5%` - 882 of 1,200), Turnaround SLA (`38.1 Hours` within 48h SLA)
 * **Visuals**: 30-Day Activity Trends, Influx vs. Outflow Area Chart, Donut of Payout Channels (PayPal 45%, Crypto 28%, Amazon 18%, Bank 9%)
@@ -159,7 +159,7 @@ The analytical blueprint includes seven fully designed, interactive BI dashboard
 ---
 
 ### 2. User Analytics & Lifecycle Dashboard
-![User Analytics Dashboard](dashboards/screenshots/dashboard_2_user_analytics.png)
+https://github.com/yogithagowd2005-1508/product-analytics-/blob/main/dashboard_2_user_analytics.png
 * **Target Audience**: Growth Product Manager, User Acquisition Lead
 * **Key Metrics**: Total Registrations (`1,000`), Onboarding Completion (`81.7%`), Day 7 Retention (`24.5%`), Dormancy (`24.0%`)
 * **Visuals**: Acquisition Channel Yield (Organic vs Referral vs Paid Ads), Geographic Breakdown (US 30%, IN 18%, GB 15%), Lifecycle State Funnel
@@ -167,7 +167,7 @@ The analytical blueprint includes seven fully designed, interactive BI dashboard
 ---
 
 ### 3. Engagement & Gamification Dashboard
-![Engagement Dashboard](dashboards/screenshots/dashboard_3_engagement.png)
+https://github.com/yogithagowd2005-1508/product-analytics-/blob/main/dashboard_3_engagement.png
 * **Target Audience**: Gamification PM, Game Economy Designer
 * **Key Metrics**: Started Tasks (`6,000`), Completion Rate (`72.6%`), Daily Streak Claims (`2,685`), Avg Tasks / User (`4.75`)
 * **Visuals**: Earning Feature Category Breakdown (Video Ads, Surveys, Tap & Earn, Mining), Hourly Engagement Heatmap, Abandonment Taxonomy
@@ -175,7 +175,7 @@ The analytical blueprint includes seven fully designed, interactive BI dashboard
 ---
 
 ### 4. Rewards & Liability Management Dashboard
-![Rewards Dashboard](dashboards/screenshots/dashboard_4_rewards.png)
+https://github.com/yogithagowd2005-1508/product-analytics-/blob/main/dashboard_4_rewards.png
 * **Target Audience**: CFO, Product Economist, Treasury Operations
 * **Key Metrics**: Gross Points Issued (`698,350 VEs Credited` across 4,638 records), Reversal Rate (`3.20%` - 160 clawbacks), Escrow Buffer (`4.30%`), Reserve Coverage (`100.0%` solvent)
 * **Visuals**: Daily Issuance vs. Reversal Bars, Multi-Unit Distribution (VEs, XP, Gems), Feature Liability Yield Matrix
@@ -183,7 +183,7 @@ The analytical blueprint includes seven fully designed, interactive BI dashboard
 ---
 
 ### 5. Multi-Currency Wallet & Ledger Dashboard
-![Wallet Ledger Dashboard](dashboards/screenshots/dashboard_5_wallet.png)
+https://github.com/yogithagowd2005-1508/product-analytics-/blob/main/dashboard_5_wallet.png
 * **Target Audience**: Financial Controller, Ledger Architecture Team
 * **Key Metrics**: Circulating Supply (`+268,855.00 VEs` net positive unredeemed float), Double-Entry Lines (`3,500`), Completed Credits (`+370.3k VEs`), Completed Debits (`-101.5k VEs`), Overdraft Violations (`0` accounts, min balance `0.00 VEs`)
 * **Visuals**: Ledger Flow Influx vs. Redemption Debits, User Balance Distribution Percentiles (P50: 199 VEs, P90, P99), 36 Reversal Pair Audit Log
@@ -191,7 +191,7 @@ The analytical blueprint includes seven fully designed, interactive BI dashboard
 ---
 
 ### 6. Withdrawals & Cash-Out Operations Dashboard
-![Withdrawals Dashboard](dashboards/screenshots/dashboard_6_withdrawals.png)
+https://github.com/yogithagowd2005-1508/product-analytics-/blob/main/dashboard_6_withdrawals.png
 * **Target Audience**: Payment Operations, Risk & Compliance Team
 * **Key Metrics**: Fulfillment Rate (`73.5%` - 882 settled), Pending Review Queue (`125` - 10.4%), Mean Turnaround SLA (`38.1 Hours`), Rejection Rate (`13.7%` - 164)
 * **Visuals**: Payout TAT Duration Histogram, Rejection Reason Breakdown (Provider Error, Account Mismatch, Threshold, Fraud), Real-time Queue Monitor
@@ -199,7 +199,7 @@ The analytical blueprint includes seven fully designed, interactive BI dashboard
 ---
 
 ### 7. Referrals & Viral Growth Funnel Dashboard
-![Referrals Dashboard](dashboards/screenshots/dashboard_7_referrals.png)
+https://github.com/yogithagowd2005-1508/product-analytics-/blob/main/dashboard_7_referrals.png
 * **Target Audience**: Growth Lead, Virality Strategist
 * **Key Metrics**: Invite Links Generated (`900`), Signup Rate (`84.4%` - 760 users), Activation Rate (`73.7%` - 560 users), Bounty Conversion (`41.1%` - 370 users), Activated Viral Coefficient (**$K = 0.56$**), Bounty Conversion Coefficient (**$K_{\text{bounty}} = 0.37$**)
 * **Visuals**: 4-Stage Referral Funnel (`900` links $\rightarrow$ `760` signups $\rightarrow$ `560` activations $\rightarrow$ `370` bounties), Social Share Attribution, Top Advocates Leaderboard
